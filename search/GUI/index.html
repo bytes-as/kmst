@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>KMST-faceted search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
+    <!-- <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+  </head>
+  <body>
+    <nav class="nav_bg p-2">
+      <a href="#" class="nav_title">NASA Space Mission</a>
+    </nav>
+
+    <content>
+      <!-- <cover src="https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"></cover> -->
+      <div class="container-fluid bg-light pt-4 pb-4">
+        <div class="input-group mt-4 mb-4 w-50 offset-3">
+          <div class="custom-file">
+            <input type="text" class="form-control" id="selector" placeholder="Search...">
+          </div>
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-primary" onclick="fillData_search()">Search</button>
+          </div>
+        </div>
+      </div>
+      <blog>
+        <sidebar class="">
+          <button class="btn btn-primary" onclick="fillData()">Filter</button>
+          <br>
+            <form class="container pl-2" action="#" method="post">
+              <!-- Years -->
+              <div class="form-group pl-2">
+                <label for="amount">Launch Period:</label>
+                <input type="text" id="years" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                <div id="slider-range"></div>
+              </div>
+              <hr>
+              <!-- Countries -->
+              <div class="form-group pl-2" id="Countries">
+              </div>
+              <hr>
+              <!-- Manned -->
+              <a data-toggle="collapse" href="#crew" aria-expanded="false" aria-controls="crew">Crew</a>
+              <div class="form-group pl-2 collapse" id="crew">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="Unmanned">
+                  <label class="custom-control-label" for="Unmanned">Unmanned</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="Manned">
+                    <label class="custom-control-label" for="Manned">Manned</label>
+                    <!-- <a data-toggle="collapse" href="#NuofAstro" aria-expanded="false" aria-controls="NuofAstro">Crew</a> -->
+                    <div class="form-group pl-2  collapse" id="NuofAstro">
+                      <div class="pb-2"> Number of Astronauts </div>
+                      <div id="AstronotsCount_slider">
+                       <div id="AstronotsCount" class="ui-slider-handle"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- purpose of mission -->
+              <hr>
+              <a data-toggle="collapse" href="#discipline" aria-expanded="false" aria-controls="discipline">Discipline</a>
+              <div class="form-group pl-2 collapse" id="discipline">
+                <!-- scientific,  military,  exploration -->
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="Scientific">
+                  <label class="custom-control-label" for="Scientific">Scientific</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="Exploration">
+                  <label class="custom-control-label" for="Exploration">Exploration</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="Military">
+                  <label class="custom-control-label" for="Military">Military</label>
+                </div>
+              </div>
+              <hr>
+              <!-- Capacity -->
+              <div class="form-group pl-2">
+                <label for="payLoad">Pay load:</label>
+                <input type="text" id="payLoad" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                <div id="payLoad-range"></div>
+              </div>
+              <hr>
+              <!-- Weight -->
+              <div class="form-group pl-2">
+                <label for="weight">Launch vehicle weight:</label>
+                <input type="text" id="weight" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                <div id="weight-range"></div>
+              </div>
+              <hr>
+              <!-- Duration -->
+              <div class="form-group pl-2">
+                <label for="duration">Launch vehicle weight:</label>
+                <input type="text" id="duration" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                <div id="duration-range"></div>
+              </div>
+              <hr>
+              <!-- Success -->
+              <div class="form-group pl-2">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="Success">
+                  <label class="custom-control-label" for="Success">Success</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="Unsuccess">
+                  <label class="custom-control-label" for="Unsuccess">Unsuccess</label>
+                </div>
+              </div>
+            </form>
+        </Sidebar>
+
+
+
+        <titl> Search Results for :  </titl>
+        <subt> <div id="nuofR"></div> Results found </subt>
+
+        <!-- <blogImg src="https://bit.ly/2x4g5vW"></blogImg> -->
+        <results>
+
+        </results>
+        <div id="hiden" style="display:none;">
+
+        </div>
+      </blog>
+    </content>
+  </body>
+  <script src="blog.js" charset="utf-8"></script>
+</html>

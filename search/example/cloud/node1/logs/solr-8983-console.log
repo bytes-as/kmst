@@ -1,0 +1,13 @@
+2202 [main] INFO  org.eclipse.jetty.util.log [] [   ] org.eclipse.jetty.util.log; Logging initialized @2244ms to org.eclipse.jetty.util.log.Slf4jLog
+3091 [main] INFO  org.eclipse.jetty.server.Server [] [   ] org.eclipse.jetty.server.Server; jetty-9.4.10.v20180503; built: 2018-05-03T15:56:21.710Z; git: daa59876e6f384329b122929e70a80934569428c; jvm 1.8.0_181-b13
+3345 [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider [] [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///media/rajesh/New%20Volume/5th%20sem/Knowledge%20Modeling/solr-7.4.0/server/contexts/] at interval 0
+4787 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor [] [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+4830 [main] INFO  org.eclipse.jetty.server.session [] [   ] org.eclipse.jetty.server.session; DefaultSessionIdManager workerName=node0
+4830 [main] INFO  org.eclipse.jetty.server.session [] [   ] org.eclipse.jetty.server.session; No SessionScavenger set, using defaults
+4862 [main] INFO  org.eclipse.jetty.server.session [] [   ] org.eclipse.jetty.server.session; node0 Scavenging every 600000ms
+5016 [main] INFO  org.apache.solr.util.configuration.SSLCredentialProviderFactory [] [   ] org.apache.solr.util.configuration.SSLCredentialProviderFactory; Processing SSL Credential Provider chain: env;sysprop
+5449 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter [] [   ] org.apache.solr.servlet.SolrDispatchFilter; Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+5496 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter [] [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr™ version 7.4.0
+5499 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter [] [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in cloud mode on port 8983
+5500 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter [] [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: /media/rajesh/New Volume/5th sem/Knowledge Modeling/solr-7.4.0
+5535 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter [] [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2018-09-07T13:30:30.187Z

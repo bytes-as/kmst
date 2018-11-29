@@ -1,0 +1,787 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:eqp="https://data.nasa.gov/ontologies/atmonto/equipment#"
+    xmlns:atm="https://data.nasa.gov/ontologies/atmonto/ATM#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:data="https://data.nasa.gov/ontologies/atmonto/data#"
+    xmlns:nas="https://data.nasa.gov/ontologies/atmonto/NAS#"
+    xmlns:gen="https://data.nasa.gov/ontologies/atmonto/general#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:doc="https://data.nasa.gov/ontologies/atmonto/documentation#" > 
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN323NB">
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</eqp:manufactureYear>
+    <eqp:registrationNumber>N323NB</eqp:registrationNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50675243</eqp:modeSCode>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A319-114"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</eqp:numberOfSeats>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-31</eqp:certificateIssueDate>
+    <rdfs:label>Aircraft N323NB</rdfs:label>
+    <eqp:aircraftSerialNumber>1453</eqp:aircraftSerialNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN879NN">
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-823"/>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</eqp:manufactureYear>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53014376</eqp:modeSCode>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N879NN</eqp:registrationNumber>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</eqp:numberOfSeats>
+    <rdfs:label>Aircraft N879NN</rdfs:label>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-21</eqp:certificateIssueDate>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftSerialNumber>31133</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN605QX">
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51755506</eqp:modeSCode>
+    <rdfs:label>Aircraft N605QX</rdfs:label>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Bombardier-CL6002B19-100"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</eqp:numberOfSeats>
+    <eqp:aircraftSerialNumber>10022</eqp:aircraftSerialNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:registrationNumber>N605QX</eqp:registrationNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8203709047992731</eqp:aircraftModelCertainty>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-25</eqp:certificateIssueDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN79279">
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-11-26</eqp:certificateIssueDate>
+    <eqp:aircraftSerialNumber>31597</eqp:aircraftSerialNumber>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <rdfs:label>Aircraft N79279</rdfs:label>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-824"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52541342</eqp:modeSCode>
+    <eqp:registrationNumber>N79279</eqp:registrationNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</eqp:manufactureYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN942NN">
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</eqp:numberOfSeats>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</eqp:manufactureYear>
+    <eqp:aircraftSerialNumber>33492</eqp:aircraftSerialNumber>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-823"/>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-30</eqp:certificateIssueDate>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <rdfs:label>Aircraft N942NN</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N942NN</eqp:registrationNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53212717</eqp:modeSCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN765SW">
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-25</eqp:certificateIssueDate>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999999999999997</eqp:aircraftModelCertainty>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52452700</eqp:modeSCode>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</eqp:manufactureYear>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftSerialNumber>29805</eqp:aircraftSerialNumber>
+    <eqp:aircraftRegistrant>SOUTHWEST AIRLINES CO</eqp:aircraftRegistrant>
+    <eqp:registrationNumber>N765SW</eqp:registrationNumber>
+    <rdfs:label>Aircraft N765SW</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-7H4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN624VA">
+    <eqp:aircraftRegistrant>AFS INVESTMENTS 67 LLC</eqp:aircraftRegistrant>
+    <eqp:registrationNumber>N624VA</eqp:registrationNumber>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</eqp:manufactureYear>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-30</eqp:certificateIssueDate>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A320-214"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</eqp:numberOfSeats>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <rdfs:label>Aircraft N624VA</rdfs:label>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52023365</eqp:modeSCode>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftSerialNumber>2778</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN312US">
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <rdfs:label>Aircraft N312US</rdfs:label>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A320-211"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50650022</eqp:modeSCode>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:registrationNumber>N312US</eqp:registrationNumber>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</eqp:manufactureYear>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</eqp:numberOfSeats>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-31</eqp:certificateIssueDate>
+    <eqp:aircraftSerialNumber>152</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN871NN">
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52775506</eqp:modeSCode>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-14</eqp:certificateIssueDate>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</eqp:numberOfSeats>
+    <eqp:registrationNumber>N871NN</eqp:registrationNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftSerialNumber>31127</eqp:aircraftSerialNumber>
+    <eqp:aircraftRegistrant>WILMINGTON TRUST CO TRUSTEE</eqp:aircraftRegistrant>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-823"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</eqp:manufactureYear>
+    <rdfs:label>Aircraft N871NN</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN37263">
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51037177</eqp:modeSCode>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</eqp:manufactureYear>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-08-01</eqp:certificateIssueDate>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftSerialNumber>31583</eqp:aircraftSerialNumber>
+    <eqp:registrationNumber>N37263</eqp:registrationNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-824"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <rdfs:label>Aircraft N37263</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN16234">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</eqp:manufactureYear>
+    <eqp:aircraftSerialNumber>28946</eqp:aircraftSerialNumber>
+    <eqp:registrationNumber>N16234</eqp:registrationNumber>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-824"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50175772</eqp:modeSCode>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-08-06</eqp:certificateIssueDate>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <rdfs:label>Aircraft N16234</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/acInst">
+    <owl:imports rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN26549">
+    <rdfs:label>Aircraft N26549</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-05-30</eqp:certificateIssueDate>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <eqp:registrationNumber>N26549</eqp:registrationNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50512226</eqp:modeSCode>
+    <eqp:aircraftSerialNumber>145571</eqp:aircraftSerialNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Embraer-EMB145-LR"/>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</eqp:numberOfSeats>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN24702">
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-04-01</eqp:certificateIssueDate>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <eqp:registrationNumber>N24702</eqp:registrationNumber>
+    <eqp:aircraftSerialNumber>28763</eqp:aircraftSerialNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50446163</eqp:modeSCode>
+    <rdfs:label>Aircraft N24702</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-724"/>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</eqp:manufactureYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN933AN">
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:registrationNumber>N933AN</eqp:registrationNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-823"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</eqp:numberOfSeats>
+    <eqp:aircraftSerialNumber>30080</eqp:aircraftSerialNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53170333</eqp:modeSCode>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-05-15</eqp:certificateIssueDate>
+    <eqp:aircraftRegistrant>AMERICAN AIRLINES INC</eqp:aircraftRegistrant>
+    <rdfs:label>Aircraft N933AN</rdfs:label>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</eqp:manufactureYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN317NB">
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50661000</eqp:modeSCode>
+    <eqp:aircraftSerialNumber>1324</eqp:aircraftSerialNumber>
+    <eqp:registrationNumber>N317NB</eqp:registrationNumber>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</eqp:numberOfSeats>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <rdfs:label>Aircraft N317NB</rdfs:label>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A319-114"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</eqp:manufactureYear>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-31</eqp:certificateIssueDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN527MQ">
+    <eqp:registrationNumber>N527MQ</eqp:registrationNumber>
+    <rdfs:label>Aircraft N527MQ</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN27733">
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-724"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</eqp:manufactureYear>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-09-30</eqp:certificateIssueDate>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:registrationNumber>N27733</eqp:registrationNumber>
+    <rdfs:label>Aircraft N27733</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50541532</eqp:modeSCode>
+    <eqp:aircraftSerialNumber>28800</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN843UA">
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A319-131"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52706301</eqp:modeSCode>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:registrationNumber>N843UA</eqp:registrationNumber>
+    <eqp:aircraftSerialNumber>1573</eqp:aircraftSerialNumber>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</eqp:manufactureYear>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</eqp:numberOfSeats>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdfs:label>Aircraft N843UA</rdfs:label>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-01</eqp:certificateIssueDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN502MQ">
+    <eqp:registrationNumber>N502MQ</eqp:registrationNumber>
+    <rdfs:label>Aircraft N502MQ</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN589UA">
+    <eqp:registrationNumber>N589UA</eqp:registrationNumber>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-01</eqp:certificateIssueDate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51714432</eqp:modeSCode>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</eqp:manufactureYear>
+    <eqp:aircraftSerialNumber>28707</eqp:aircraftSerialNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</eqp:numberOfSeats>
+    <rdfs:label>Aircraft N589UA</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-757-222"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN37274">
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-824"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51037243</eqp:modeSCode>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <eqp:aircraftSerialNumber>31592</eqp:aircraftSerialNumber>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-05</eqp:certificateIssueDate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N37274</eqp:registrationNumber>
+    <rdfs:label>Aircraft N37274</rdfs:label>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN963AN">
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-05-04</eqp:certificateIssueDate>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</eqp:manufactureYear>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:aircraftRegistrant>AMERICAN AIRLINES INC</eqp:aircraftRegistrant>
+    <rdfs:label>Aircraft N963AN</rdfs:label>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</eqp:numberOfSeats>
+    <eqp:aircraftSerialNumber>29543</eqp:aircraftSerialNumber>
+    <eqp:registrationNumber>N963AN</eqp:registrationNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53263530</eqp:modeSCode>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-823"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN713TW">
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</eqp:manufactureYear>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-757-2Q8"/>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52304360</eqp:modeSCode>
+    <rdfs:label>Aircraft N713TW</rdfs:label>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178</eqp:numberOfSeats>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-16</eqp:certificateIssueDate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N713TW</eqp:registrationNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:aircraftSerialNumber>28173</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN958UW">
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftSerialNumber>19000164</eqp:aircraftSerialNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftRegistrant>US AIRWAYS INC</eqp:aircraftRegistrant>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</eqp:manufactureYear>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53252066</eqp:modeSCode>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999999999999999</eqp:aircraftModelCertainty>
+    <eqp:registrationNumber>N958UW</eqp:registrationNumber>
+    <rdfs:label>Aircraft N958UW</rdfs:label>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Embraer-ERJ190-100IGW"/>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-04</eqp:certificateIssueDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN63820">
+    <rdfs:label>Aircraft N63820</rdfs:label>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-924ER"/>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-28</eqp:certificateIssueDate>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</eqp:numberOfSeats>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52057053</eqp:modeSCode>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</eqp:manufactureYear>
+    <eqp:registrationNumber>N63820</eqp:registrationNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:aircraftSerialNumber>43534</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN12238">
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:aircraftSerialNumber>28804</eqp:aircraftSerialNumber>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-10-12</eqp:certificateIssueDate>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <rdfs:label>Aircraft N12238</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N12238</eqp:registrationNumber>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</eqp:manufactureYear>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-824"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50057002</eqp:modeSCode>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN389DA">
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdfs:label>Aircraft N389DA</rdfs:label>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-832"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</eqp:numberOfSeats>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <eqp:registrationNumber>N389DA</eqp:registrationNumber>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-04-19</eqp:certificateIssueDate>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51076405</eqp:modeSCode>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</eqp:manufactureYear>
+    <eqp:aircraftSerialNumber>30376</eqp:aircraftSerialNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN652JB">
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-02-07</eqp:certificateIssueDate>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52112362</eqp:modeSCode>
+    <rdfs:label>Aircraft N652JB</rdfs:label>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</eqp:manufactureYear>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</eqp:numberOfSeats>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:aircraftRegistrant>JETBLUE AIRWAYS CORP</eqp:aircraftRegistrant>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N652JB</eqp:registrationNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A320-232"/>
+    <eqp:aircraftSerialNumber>3029</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN413AS">
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</eqp:numberOfSeats>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</eqp:manufactureYear>
+    <rdfs:label>Aircraft N413AS</rdfs:label>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-28</eqp:certificateIssueDate>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51157526</eqp:modeSCode>
+    <eqp:aircraftSerialNumber>35205</eqp:aircraftSerialNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:registrationNumber>N413AS</eqp:registrationNumber>
+    <eqp:aircraftRegistrant>ALASKA AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-990ER"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN740SW">
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</eqp:numberOfSeats>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999999999999997</eqp:aircraftModelCertainty>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</eqp:manufactureYear>
+    <rdfs:label>Aircraft N740SW</rdfs:label>
+    <eqp:registrationNumber>N740SW</eqp:registrationNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52372057</eqp:modeSCode>
+    <eqp:aircraftSerialNumber>29276</eqp:aircraftSerialNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-7H4"/>
+    <eqp:aircraftRegistrant>SOUTHWEST AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-01-27</eqp:certificateIssueDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN37273">
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</eqp:numberOfSeats>
+    <rdfs:label>Aircraft N37273</rdfs:label>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-05</eqp:certificateIssueDate>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-824"/>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</eqp:manufactureYear>
+    <eqp:registrationNumber>N37273</eqp:registrationNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:aircraftSerialNumber>31591</eqp:aircraftSerialNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51037242</eqp:modeSCode>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN832UA">
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-01</eqp:certificateIssueDate>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A319-131"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</eqp:manufactureYear>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <rdfs:label>Aircraft N832UA</rdfs:label>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52660613</eqp:modeSCode>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:registrationNumber>N832UA</eqp:registrationNumber>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</eqp:numberOfSeats>
+    <eqp:aircraftSerialNumber>1321</eqp:aircraftSerialNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN816NN">
+    <eqp:registrationNumber>N816NN</eqp:registrationNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <rdfs:label>Aircraft N816NN</rdfs:label>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-03</eqp:certificateIssueDate>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-823"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</eqp:manufactureYear>
+    <eqp:aircraftSerialNumber>31081</eqp:aircraftSerialNumber>
+    <eqp:aircraftRegistrant>WILMINGTON TRUST CO TRUSTEE</eqp:aircraftRegistrant>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52620337</eqp:modeSCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN11548">
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-05-30</eqp:certificateIssueDate>
+    <eqp:aircraftSerialNumber>145565</eqp:aircraftSerialNumber>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50040713</eqp:modeSCode>
+    <rdfs:label>Aircraft N11548</rdfs:label>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</eqp:numberOfSeats>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Embraer-EMB145-LR"/>
+    <eqp:registrationNumber>N11548</eqp:registrationNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN78438">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:registrationNumber>N78438</eqp:registrationNumber>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-924ER"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</eqp:manufactureYear>
+    <rdfs:label>Aircraft N78438</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</eqp:numberOfSeats>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52521104</eqp:modeSCode>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-22</eqp:certificateIssueDate>
+    <eqp:aircraftSerialNumber>33533</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN546UW">
+    <eqp:aircraftRegistrant>US AIRWAYS INC</eqp:aircraftRegistrant>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-10-24</eqp:certificateIssueDate>
+    <eqp:registrationNumber>N546UW</eqp:registrationNumber>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</eqp:manufactureYear>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A321-231"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftSerialNumber>4885</eqp:aircraftSerialNumber>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">379</eqp:numberOfSeats>
+    <rdfs:label>Aircraft N546UW</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51570015</eqp:modeSCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN374NW">
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</eqp:numberOfSeats>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <eqp:aircraftSerialNumber>1646</eqp:aircraftSerialNumber>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A320-212"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</eqp:manufactureYear>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51041750</eqp:modeSCode>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N374NW</eqp:registrationNumber>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-31</eqp:certificateIssueDate>
+    <rdfs:label>Aircraft N374NW</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN826NN">
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftSerialNumber>31089</eqp:aircraftSerialNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</eqp:numberOfSeats>
+    <rdfs:label>Aircraft N826NN</rdfs:label>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-02-26</eqp:certificateIssueDate>
+    <eqp:registrationNumber>N826NN</eqp:registrationNumber>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-823"/>
+    <eqp:aircraftRegistrant>AMERICAN AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</eqp:manufactureYear>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52644136</eqp:modeSCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN639VA">
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</eqp:manufactureYear>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:aircraftSerialNumber>3016</eqp:aircraftSerialNumber>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N639VA</eqp:registrationNumber>
+    <rdfs:label>Aircraft N639VA</rdfs:label>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</eqp:numberOfSeats>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52060407</eqp:modeSCode>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-08-17</eqp:certificateIssueDate>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A320-214"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN822DN">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</eqp:numberOfSeats>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-06-12</eqp:certificateIssueDate>
+    <eqp:registrationNumber>N822DN</eqp:registrationNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52634241</eqp:modeSCode>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-932ER"/>
+    <eqp:aircraftSerialNumber>31933</eqp:aircraftSerialNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <rdfs:label>Aircraft N822DN</rdfs:label>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</eqp:manufactureYear>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN38417">
+    <eqp:registrationNumber>N38417</eqp:registrationNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</eqp:numberOfSeats>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</eqp:manufactureYear>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-924ER"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftSerialNumber>31665</eqp:aircraftSerialNumber>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-03-13</eqp:certificateIssueDate>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51066301</eqp:modeSCode>
+    <rdfs:label>Aircraft N38417</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN68821">
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</eqp:manufactureYear>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-16</eqp:certificateIssueDate>
+    <eqp:aircraftSerialNumber>43535</eqp:aircraftSerialNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-924ER"/>
+    <rdfs:label>Aircraft N68821</rdfs:label>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</eqp:numberOfSeats>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52221647</eqp:modeSCode>
+    <eqp:registrationNumber>N68821</eqp:registrationNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN525MQ">
+    <eqp:registrationNumber>N525MQ</eqp:registrationNumber>
+    <rdfs:label>Aircraft N525MQ</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN68801">
+    <eqp:registrationNumber>N68801</eqp:registrationNumber>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-08-01</eqp:certificateIssueDate>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-924ER"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52221541</eqp:modeSCode>
+    <eqp:aircraftSerialNumber>42740</eqp:aircraftSerialNumber>
+    <rdfs:label>Aircraft N68801</rdfs:label>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</eqp:manufactureYear>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN565JB">
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</eqp:manufactureYear>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51635107</eqp:modeSCode>
+    <eqp:registrationNumber>N565JB</eqp:registrationNumber>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A320-232"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</eqp:numberOfSeats>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-06-18</eqp:certificateIssueDate>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <rdfs:label>Aircraft N565JB</rdfs:label>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:aircraftSerialNumber>2031</eqp:aircraftSerialNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN849UA">
+    <eqp:registrationNumber>N849UA</eqp:registrationNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftRegistrant>UNITED AIRLINES INC</eqp:aircraftRegistrant>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52721413</eqp:modeSCode>
+    <rdfs:label>Aircraft N849UA</rdfs:label>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-01</eqp:certificateIssueDate>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</eqp:numberOfSeats>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</eqp:aircraftModelCertainty>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A319-131"/>
+    <eqp:aircraftSerialNumber>1649</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN994AT">
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-717-200"/>
+    <eqp:registrationNumber>N994AT</eqp:registrationNumber>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-11-05</eqp:certificateIssueDate>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <eqp:aircraftSerialNumber>55138</eqp:aircraftSerialNumber>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999798463148213</eqp:aircraftModelCertainty>
+    <rdfs:label>Aircraft N994AT</rdfs:label>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53360621</eqp:modeSCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN706SW">
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999999999999997</eqp:aircraftModelCertainty>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-08</eqp:certificateIssueDate>
+    <eqp:aircraftSerialNumber>27840</eqp:aircraftSerialNumber>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-7H4"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftRegistrant>SOUTHWEST AIRLINES CO</eqp:aircraftRegistrant>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</eqp:manufactureYear>
+    <eqp:registrationNumber>N706SW</eqp:registrationNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52266175</eqp:modeSCode>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</eqp:numberOfSeats>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <rdfs:label>Aircraft N706SW</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN16112">
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Embraer-EMB145-XR"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-06-25</eqp:certificateIssueDate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:registrationNumber>N16112</eqp:registrationNumber>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <rdfs:label>Aircraft N16112</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999999999999999</eqp:aircraftModelCertainty>
+    <eqp:aircraftSerialNumber>145660</eqp:aircraftSerialNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50173773</eqp:modeSCode>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</eqp:numberOfSeats>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN931WN">
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-7H4"/>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53165541</eqp:modeSCode>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</eqp:manufactureYear>
+    <rdfs:label>Aircraft N931WN</rdfs:label>
+    <eqp:aircraftSerialNumber>36637</eqp:aircraftSerialNumber>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</eqp:numberOfSeats>
+    <eqp:aircraftRegistrant>WELLS FARGO BANK NORTHWEST NA TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:registrationNumber>N931WN</eqp:registrationNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-10</eqp:certificateIssueDate>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999999999999997</eqp:aircraftModelCertainty>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN784AA">
+    <rdfs:label>Aircraft N784AA</rdfs:label>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9879913721631963</eqp:aircraftModelCertainty>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</eqp:numberOfEngines>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</eqp:manufactureYear>
+    <eqp:registrationNumber>N784AA</eqp:registrationNumber>
+    <eqp:aircraftSerialNumber>D-6858</eqp:aircraftSerialNumber>
+    <eqp:aircraftRegistrant>HAYDEN CHARLES J JR</eqp:aircraftRegistrant>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Beech-35-P35"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-02-28</eqp:certificateIssueDate>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52517543</eqp:modeSCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN904DE">
+    <rdfs:label>Aircraft N904DE</rdfs:label>
+    <eqp:registrationNumber>N904DE</eqp:registrationNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9824854119015275</eqp:aircraftModelCertainty>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53077130</eqp:modeSCode>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</eqp:numberOfSeats>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#McdonnellDouglas-MD88-88"/>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <eqp:aircraftSerialNumber>53409</eqp:aircraftSerialNumber>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</eqp:manufactureYear>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-06-03</eqp:certificateIssueDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN962WN">
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Boeing-737-7H4"/>
+    <eqp:aircraftSerialNumber>36963</eqp:aircraftSerialNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53262625</eqp:modeSCode>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</eqp:manufactureYear>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9999999999999997</eqp:aircraftModelCertainty>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-08-18</eqp:certificateIssueDate>
+    <eqp:registrationNumber>N962WN</eqp:registrationNumber>
+    <eqp:aircraftRegistrant>SOUTHWEST AIRLINES CO</eqp:aircraftRegistrant>
+    <rdfs:label>Aircraft N962WN</rdfs:label>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN354NB">
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</eqp:manufactureYear>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-31</eqp:certificateIssueDate>
+    <rdfs:label>Aircraft N354NB</rdfs:label>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50772327</eqp:modeSCode>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A319-114"/>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</eqp:numberOfSeats>
+    <eqp:registrationNumber>N354NB</eqp:registrationNumber>
+    <eqp:aircraftSerialNumber>1833</eqp:aircraftSerialNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN913DL">
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-06-21</eqp:certificateIssueDate>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</eqp:manufactureYear>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftRegistrant>WILMINGTON TRUST COMPANY TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:registrationNumber>N913DL</eqp:registrationNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9824854119015275</eqp:aircraftModelCertainty>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</eqp:numberOfSeats>
+    <eqp:aircraftSerialNumber>49544</eqp:aircraftSerialNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53121046</eqp:modeSCode>
+    <rdfs:label>Aircraft N913DL</rdfs:label>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#McdonnellDouglas-MD88-88"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN333NB">
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</eqp:manufactureYear>
+    <eqp:aircraftSerialNumber>1582</eqp:aircraftSerialNumber>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0000000000000002</eqp:aircraftModelCertainty>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:aircraftRegistrant>DELTA AIR LINES INC</eqp:aircraftRegistrant>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-12-31</eqp:certificateIssueDate>
+    <eqp:registrationNumber>N333NB</eqp:registrationNumber>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50721042</eqp:modeSCode>
+    <rdfs:label>Aircraft N333NB</rdfs:label>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</eqp:numberOfSeats>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Airbus-A319-114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftN917DL">
+    <rdfs:label>Aircraft N917DL</rdfs:label>
+    <eqp:hasAircraftModel rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#McdonnellDouglas-MD88-88"/>
+    <eqp:aircraftModelCertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9824854119015275</eqp:aircraftModelCertainty>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#Aircraft"/>
+    <eqp:aircraftSerialNumber>49573</eqp:aircraftSerialNumber>
+    <eqp:registrationNumber>N917DL</eqp:registrationNumber>
+    <eqp:aircraftRegistrant>WILMINGTON TRUST CO TRUSTEE</eqp:aircraftRegistrant>
+    <eqp:modeSCode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53130402</eqp:modeSCode>
+    <eqp:certificateIssueDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-09-27</eqp:certificateIssueDate>
+    <eqp:numberOfEngines rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</eqp:numberOfEngines>
+    <eqp:numberOfSeats rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</eqp:numberOfSeats>
+    <eqp:manufactureYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</eqp:manufactureYear>
+  </rdf:Description>
+</rdf:RDF>

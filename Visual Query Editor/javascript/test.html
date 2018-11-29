@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Complex Query Interface:</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript">mxBasePath='src';</script>
+        <script type="text/javascript" src="src/js/mxClient.js"></script>
+        
+        <script type="text/javascript">
+        	$(document).ready(function() {
+				$.ajax({
+						method: 'GET',
+						url: 'http://localhost:5000/api/v1.0/getSubjectObject',
+						success: function(data){
+							window.subject_object = data['subject_object'];
+						}
+					})
+				$.ajax({
+						method: 'GET',
+						url: 'http://localhost:5000/api/v1.0/getPredicate',
+						success: function(data){
+							window.predicate = data['predicate'];
+						}
+					})
+	         });
+	         
+            function main(container) {
+                if (!mxClient.isBrowserSupported()) {
+                    mxUtils.error("Browser Not Supported.")
+                }
+                else {
+                	window.counter = 0;
+                    window.graph = new mxGraph(container);
+                    new mxRubberband(window.graph);
+                    window.parent = window.graph.getDefaultParent();
+                    mxGraphHandler.prototype.removeCellsFromParent = false
+                    window.graph.setHtmlLabels(true)
+                    
+                    var style = [];
+                    style[mxConstants.STYLE_PERIMETER] = mxPerimeter.RectanglePerimeter;
+                    style[mxConstants.STYLE_STROKECOLOR] = '#53af96';
+                    style[mxConstants.STYLE_ROUNDED] = true;
+                    style[mxConstants.STYLE_FILLCOLOR] = '#1bbc9b';
+                    style[mxConstants.STYLE_FONTCOLOR] = 'white';
+                    style[mxConstants.STYLE_ALIGN] = mxConstants.ALIGN_CENTER;
+                    style[mxConstants.STYLE_VERTICAL_ALIGN] = mxConstants.ALIGN_MIDDLE;
+                    style[mxConstants.STYLE_FONTSIZE] = '14';
+                    style[mxConstants.STYLE_IMAGE] = 'src/images/error.gif';
+                    style[mxConstants.STYLE_FONTSTYLE] = 1;
+                    window.graph.getStylesheet().putDefaultVertexStyle(style);
+            
+                    // Creates the default style for edges
+                    style = [];
+                    style[mxConstants.STYLE_SHAPE] = mxConstants.SHAPE_CONNECTOR;
+                    style[mxConstants.STYLE_STROKECOLOR] = '#474843';
+                    style[mxConstants.STYLE_ALIGN] = mxConstants.ALIGN_CENTER;
+                    style[mxConstants.STYLE_VERTICAL_ALIGN] = mxConstants.ALIGN_MIDDLE;
+                    style[mxConstants.STYLE_ROUNDED] = '1';
+                    style[mxConstants.STYLE_EDGE] = mxEdgeStyle.ElbowConnector;
+                    style[mxConstants.STYLE_ENDARROW] = mxConstants.ARROW_CLASSIC;
+                    style[mxConstants.STYLE_FONTSIZE] = '12';
+                    style[mxConstants.STYLE_LABEL_BACKGROUNDCOLOR] = "#ececec";
+                    window.graph.getStylesheet().putDefaultEdgeStyle(style);
+                }
+            };
+            
+            function createCell(object,subjects) {
+            	var subject_list;
+                var shape = "ellipse";
+                var width = 240;
+                var height = 190;
+                graph.getModel().beginUpdate();
+                try {
+                    if (object == 'Literal') {
+                        shape = "rectangle";
+                        width = 90;
+                        height = 50;
+                    }
+                    var options_arr = window.subject_object;//['ABC', 'XYZ', '123'];
+                    x = "<select id=" + object+window.counter + " style=\"color:black;\">";
+                    x+= "<option selected=\"" + object + "\">" + object + "</option>";
+                    for (var i = 0; i < options_arr.length; i++)
+                    	x+= "<option value = " + options_arr[i] + ">" + options_arr[i] + "</option>";
+                    x+= "</select>";
+                    var vertex = window.graph.insertVertex(window.parent, object+window.counter, x, 20, 20, width, height, "shape="+shape);
+                    window.counter+=1;
+                }
+                finally {
+                    window.graph.getModel().endUpdate();
+                }
+            };
+            
+            function drawEdge() {
+                var cells = window.graph.getSelectionCells();
+                // Always connect first cell to all other cells
+                for (var i = 1; i < cells.length; i++) {
+                	options_arr = window.predicate;
+                    x = "<select id=Predicate"+window.counter + " style=\"color:black;\">";
+                    x+= "<option selected=\"Predicate\">Predicate</option>";
+                    for (var j = 0; j < options_arr.length; j++)
+                    	x+= "<option value = " + options_arr[j] + ">" + options_arr[j] + "</option>";
+                    x+= "</select>";
+                    window.graph.insertEdge(window.parent, "Predicate"+window.counter, x, cells[0], cells[i]);
+                    window.counter+= 1;
+                }
+            }
+            
+            function addFilter() {
+                window.graph.insertVertex(window.graph.getSelectionCells()[0], null, "Property", 20, 20, 120, 50, "shape=rectangle");
+            }
+            
+            function deleteCell() {
+                var cells = window.graph.getSelectionCells();
+                for (var i = 0; i < cells.length; i++) {
+                    window.graph.getModel().remove(cells[i]);
+                }
+            }
+            
+            function generateQuery() {
+            	//Write out the select statement
+            	document.getElementById("textarea").value = "select";
+            	for (var i = 0; i < window.counter; i++) {
+            		var cell = window.graph.model.getCell("ResourceToSelect"+i);
+            		if (cell)
+            			document.getElementById("textarea").value+= " ?" + document.getElementById("ResourceToSelect"+i).options[document.getElementById("ResourceToSelect"+i).selectedIndex].value;
+            	}
+            	document.getElementById("textarea").value+= " where\n{\n";
+            	
+            	//Write out the other relationships
+            	for (var i = 0; i < window.counter; i++) {
+            		var cell = window.graph.model.getCell("ResourceToSelect"+i);
+            		if (cell && cell.edges) {
+            			for (var j = 0; j < cell.edges.length; j++) {
+            				if (cell.edges[j]) {
+	            				cell_source_value = document.getElementById("ResourceToSelect"+i).options[document.getElementById("ResourceToSelect"+i).selectedIndex].value;
+	            				cell_predicate_value = document.getElementById(cell.edges[j].getId()).options[document.getElementById(cell.edges[j].getId()).selectedIndex].value
+	            				cell_target_value = document.getElementById(cell.edges[j].target.getId()).options[document.getElementById(cell.edges[j].target.getId()).selectedIndex].value;
+	            				if (cell_source_value!= cell_target_value) {
+	            					document.getElementById("textarea").value+= "?" + cell_source_value;
+	            					document.getElementById("textarea").value+= " eqp:" + cell_predicate_value;
+	            					document.getElementById("textarea").value+= " ?" + cell_target_value;
+	            					document.getElementById("textarea").value+= ".\n";
+		            			}
+	            			}
+            			}
+            		}
+            	}
+            	
+            	for (var i = 0; i < window.counter; i++) {
+            		var cell = window.graph.model.getCell("Subject"+i);
+            		if (cell && cell.edges) {
+            			for (var j = 0; j < cell.edges.length; j++) {
+	            				cell_source_value = document.getElementById("Subject"+i).options[document.getElementById("Subject"+i).selectedIndex].value;
+	            				cell_predicate_value = document.getElementById(cell.edges[j].getId()).options[document.getElementById(cell.edges[j].getId()).selectedIndex].value;
+	            				cell_target_value = document.getElementById(cell.edges[j].target.getId()).options[document.getElementById(cell.edges[j].target.getId()).selectedIndex].value;
+	            				if (cell_source_value!= cell_target_value) {
+		            				document.getElementById("textarea").value+= "?" + cell_source_value;
+	            					document.getElementById("textarea").value+= " eqp:" + cell_predicate_value;
+	            					document.getElementById("textarea").value+= " ?" + cell_target_value;
+	            					document.getElementById("textarea").value+= ".\n";
+	            			}
+            			}
+            		}
+            	}
+            	
+            	//Add any filter on object
+            	for (var i = 0; i < window.counter; i++) {
+            		var cell = window.graph.model.getCell("Object"+i);
+            		if (cell && cell.children) {
+            			cell_source_value = document.getElementById("Object"+i).options[document.getElementById("Object"+i).selectedIndex].value;
+            			for (var j = 0; j < cell.children.length; j++) {
+            				document.getElementById("textarea").value+= "FILTER( ?"+cell_source_value+" "+cell.children[j].value+" )\n";
+            			}
+            		}
+            	}
+            	
+            	//Add any filter on ResourceToSelect
+            	for (var i = 0; i < window.counter; i++) {
+            		var cell = window.graph.model.getCell("ResourceToSelect"+i);
+            		if (cell && cell.children) {
+            			cell_source_value = document.getElementById("ResourceToSelect"+i).options[document.getElementById("ResourceToSelect"+i).selectedIndex].value;
+            			for (var j = 0; j < cell.children.length; j++) {
+            				document.getElementById("textarea").value+= "FILTER( ?"+cell_source_value+" "+cell.children[j].value+" )\n";
+            			}
+            		}
+            	}
+            	document.getElementById("textarea").value+= "}";
+            }
+            
+            window.onkeydown = function(e) { if (e.keyCode == 46) { deleteCell(); } }
+        </script>
+    </head>
+    
+    <body onload="main(document.getElementById('graphContainer'))">
+        <center>
+        	<div id="addResourceToSelect" style="display: inline-block; padding: 20px;">
+                <h4><p>Resource To Select: <a href="#" onclick="createCell('ResourceToSelect');return false;"><span class="glyphicon glyphicon-plus-sign"></span></a></p></h4>
+            </div>
+            <div id="addSubject" style="display: inline-block; padding: 20px;">
+                <h4><p>Subject: <a href="#" onclick= "createCell('Subject');return false;"><span class="glyphicon glyphicon-plus-sign"></span></a></p></h4>
+            </div>
+            <div id="addObject" style="display: inline-block; padding: 0px 20px;">
+                <h4><p>Object: <a href="#" onclick="createCell('Object');return false;"><span class="glyphicon glyphicon-plus-sign"></span></a></p></h4>
+            </div>
+            <div id="addFilter" style="display: inline-block; padding: 20px;">
+                <h4><p>Filter: <a href="#" onclick="addFilter();return false;"><span class="glyphicon glyphicon-plus-sign"></span></a></p></h4>
+            </div>
+            <div id="createEdge" style="display: block;">
+                <h4><p><button class="btn btn-info" onclick="drawEdge();">Draw Edge</button></p></h4>
+            </div>
+            <br>
+            <div id="graphContainer" style="width: 90%; height: 500px; background: url('src/images/window.gif');overflow: hidden;"></div>
+            <br>
+            <div id="generateQuery" style="display: block;">
+                <h4><p><button class="btn btn-info" onclick="generateQuery();">Generate Query</button></p></h4>
+            </div>
+            <div id="sparqlQuery" class="form-group" style="width: 60%; height: 300px;">
+                <h4><p><textarea class="form-control rounded-0" rows="10" id="textarea">Generated Query</textarea></p></h4>
+            </div>
+        </center>
+    </body>
+</html>

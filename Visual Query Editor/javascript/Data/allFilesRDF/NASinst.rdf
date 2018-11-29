@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:eqp="https://data.nasa.gov/ontologies/atmonto/equipment#"
+    xmlns:atm="https://data.nasa.gov/ontologies/atmonto/ATM#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:nas="https://data.nasa.gov/ontologies/atmonto/NAS#"
+    xmlns:gen="https://data.nasa.gov/ontologies/atmonto/general#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="https://data.nasa.gov/ontologies/atmonto/NASinst" > 
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZMP</nas:artccID>
+    <rdfs:label>Minneapolis ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZSE</nas:artccID>
+    <rdfs:label>Seattle ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZDC</nas:artccID>
+    <rdfs:label>Washington ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZUAcenter">
+    <nas:artccID>ZUA</nas:artccID>
+    <rdfs:label>Guam CERAP</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CZEcenter">
+    <nas:artccID>CZE</nas:artccID>
+    <rdfs:label>Edmonton ACC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZHU</nas:artccID>
+    <rdfs:label>Houston ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZTL</nas:artccID>
+    <rdfs:label>Atlanta ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CZYcenter">
+    <nas:artccID>CZY</nas:artccID>
+    <rdfs:label>Toronto ACC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZANcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZAN</nas:artccID>
+    <rdfs:label>Anchorage ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZAB</nas:artccID>
+    <rdfs:label>Albuquerque ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZJX</nas:artccID>
+    <rdfs:label>Jacksonville ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZKCcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZKC</nas:artccID>
+    <rdfs:label>Kansas city ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZLAcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZLA</nas:artccID>
+    <rdfs:label>Los Angeles ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZLC</nas:artccID>
+    <rdfs:label>Salt Lake ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZELAN">
+    <gen:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-84.580694</gen:longitude>
+    <gen:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.811278</gen:latitude>
+    <atm:fixName>ZELAN</atm:fixName>
+    <rdfs:label>ZELAN</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#LatLonFix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZAU</nas:artccID>
+    <rdfs:label>Chicago ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZSUcenter">
+    <nas:artccID>ZSU</nas:artccID>
+    <rdfs:label>San Juan CERAP</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <owl:imports rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZMA</nas:artccID>
+    <rdfs:label>Miami ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZOB</nas:artccID>
+    <rdfs:label>Cleveland ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZID</nas:artccID>
+    <rdfs:label>Indianapolis ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZME</nas:artccID>
+    <rdfs:label>Memphis ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZNY</nas:artccID>
+    <rdfs:label>New York ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter">
+    <rdfs:label>US command center</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ATCSCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZOAcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZOA</nas:artccID>
+    <rdfs:label>Oakland ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CZMcenter">
+    <nas:artccID>CZM</nas:artccID>
+    <rdfs:label>Moncton ACC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZHNcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZHN</nas:artccID>
+    <rdfs:label>Honolulu ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CZUcenter">
+    <nas:artccID>CZU</nas:artccID>
+    <rdfs:label>Montreal ACC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CZXcenter">
+    <nas:artccID>CZX</nas:artccID>
+    <rdfs:label>Gander ACC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CZVcenter">
+    <nas:artccID>CZV</nas:artccID>
+    <rdfs:label>Vancouver ACC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZBW</nas:artccID>
+    <rdfs:label>Boston ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CZWcenter">
+    <nas:artccID>CZW</nas:artccID>
+    <rdfs:label>Winnipeg ACC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZDVcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZDV</nas:artccID>
+    <rdfs:label>Denver ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#UScommandCenter"/>
+    <nas:artccID>ZFW</nas:artccID>
+    <rdfs:label>Fort Worth ARTCC</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ARTCC"/>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

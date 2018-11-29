@@ -1,0 +1,2064 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:eqp="https://data.nasa.gov/ontologies/atmonto/equipment#"
+    xmlns:atm="https://data.nasa.gov/ontologies/atmonto/ATM#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:data="https://data.nasa.gov/ontologies/atmonto/data#"
+    xmlns:nas="https://data.nasa.gov/ontologies/atmonto/NAS#"
+    xmlns:gen="https://data.nasa.gov/ontologies/atmonto/general#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:doc="https://data.nasa.gov/ontologies/atmonto/documentation#" > 
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MobileTowerTRACON">
+    <rdfs:label>Mobile Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Mobile Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPQLairport"/>
+    <nas:hasTRACONid>MOB</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMOBairport"/>
+    <nas:hasTRACONcity>Mobile</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Alabama</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBFMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PascoTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KALWairport"/>
+    <nas:hasTRACONcity>Pasco</nas:hasTRACONcity>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONid>PSC</nas:hasTRACONid>
+    <nas:hasTRACONname>Pasco Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPDTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPSCairport"/>
+    <nas:hasTRACONstate>Washington</nas:hasTRACONstate>
+    <rdfs:label>Pasco Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KYKMairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#GreerTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGMUairport"/>
+    <nas:hasTRACONcity>Greer</nas:hasTRACONcity>
+    <rdfs:label>Greer Tower TRACON</rdfs:label>
+    <nas:hasTRACONid>GSP</nas:hasTRACONid>
+    <nas:hasTRACONstate>South Carolina</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGYHairport"/>
+    <nas:hasTRACONname>Greer Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGSPairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SantaBarbaraTowerTRACON">
+    <nas:hasTRACONstate>California</nas:hasTRACONstate>
+    <nas:hasTRACONname>Santa Barbara Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSMXairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KVBGairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSBAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSBPairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLAcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>SBA</nas:hasTRACONid>
+    <nas:hasTRACONcity>Goleta</nas:hasTRACONcity>
+    <rdfs:label>Santa Barbara Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#DesMoinesTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Iowa</nas:hasTRACONstate>
+    <nas:hasTRACONname>Des Moines Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>DSM</nas:hasTRACONid>
+    <nas:hasTRACONcity>Des Moines</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDSMairport"/>
+    <rdfs:label>Des Moines Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#HuntingtonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>West Virginia</nas:hasTRACONstate>
+    <nas:hasTRACONname>Huntington Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>HTS</nas:hasTRACONid>
+    <nas:hasTRACONcity>Huntington</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHTSairport"/>
+    <rdfs:label>Huntington Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#HoustonTRACON">
+    <rdfs:label>Houston TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBPTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEFDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTMEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIAHairport"/>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSGRairport"/>
+    <nas:hasTRACONname>Houston TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGLSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDWHairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHOUairport"/>
+    <nas:hasTRACONid>I90</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCLLairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCXOairport"/>
+    <nas:hasTRACONcity>Houston</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AllentownTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Pennsylvania</nas:hasTRACONstate>
+    <nas:hasTRACONname>Allentown Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ABE</nas:hasTRACONid>
+    <nas:hasTRACONcity>Allentown</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KABEairport"/>
+    <rdfs:label>Allentown Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ShreveportTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Louisiana</nas:hasTRACONstate>
+    <nas:hasTRACONname>Shreveport Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>SHV</nas:hasTRACONid>
+    <nas:hasTRACONcity>Barksdale AFB</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSHVairport"/>
+    <rdfs:label>Shreveport Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#KalamazooTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBTLairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasTRACONname>Kalamazoo Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Michigan</nas:hasTRACONstate>
+    <nas:hasTRACONid>AZO</nas:hasTRACONid>
+    <rdfs:label>Kalamazoo Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Portage</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAZOairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AbileneTowerTRACON">
+    <rdfs:label>Abilene Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Abilene Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDYSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <nas:hasTRACONcity>Abilene</nas:hasTRACONcity>
+    <nas:hasTRACONid>ABI</nas:hasTRACONid>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KABIairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MinneapolisTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMSPairport"/>
+    <nas:hasTRACONname>Minneapolis TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Minnesota</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Minneapolis</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KANEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMICairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSTPairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFCMairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasTRACONid>M98</nas:hasTRACONid>
+    <rdfs:label>Minneapolis TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#GreatFallsTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Montana</nas:hasTRACONstate>
+    <nas:hasTRACONname>Great Falls Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>GTF</nas:hasTRACONid>
+    <nas:hasTRACONcity>Great Falls</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGTFairport"/>
+    <rdfs:label>Great Falls Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#NorfolkTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KECGairport"/>
+    <rdfs:label>Norfolk Tower TRACON</rdfs:label>
+    <nas:hasTRACONstate>Virginia</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPHFairport"/>
+    <nas:hasTRACONcity>Virginia Beach</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLFIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KORFairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFAFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNGUairport"/>
+    <nas:hasTRACONid>ORF</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <nas:hasTRACONname>Norfolk Tower TRACON</nas:hasTRACONname>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#GrandRapidsTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Michigan</nas:hasTRACONstate>
+    <nas:hasTRACONname>Grand Rapids Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>GRR</nas:hasTRACONid>
+    <nas:hasTRACONcity>Grand Rapids</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGRRairport"/>
+    <rdfs:label>Grand Rapids Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#TucsonTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDMAairport"/>
+    <nas:hasTRACONcity>Tucson</nas:hasTRACONcity>
+    <rdfs:label>Tucson TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTUSairport"/>
+    <nas:hasTRACONid>U90</nas:hasTRACONid>
+    <nas:hasTRACONstate>Arizona</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRYNairport"/>
+    <nas:hasTRACONname>Tucson TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#TampaTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMCFairport"/>
+    <rdfs:label>Tampa Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Tampa Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLALairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBOWairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPIEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTPAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBKVairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSRQairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSPGairport"/>
+    <nas:hasTRACONid>TPA</nas:hasTRACONid>
+    <nas:hasTRACONcity>Tampa</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#GulfportTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Gulfport</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHSAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGPTairport"/>
+    <nas:hasTRACONid>GPT</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBIXairport"/>
+    <rdfs:label>Gulfport Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Gulfport Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Mississippi</nas:hasTRACONstate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ColumbiaTowerTRACON">
+    <nas:hasTRACONcity>West Columbia</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KXNOairport"/>
+    <rdfs:label>Columbia Tower TRACON</rdfs:label>
+    <nas:hasTRACONid>CAE</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>South Carolina</nas:hasTRACONstate>
+    <nas:hasTRACONname>Columbia Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCAEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AtlantaTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLSFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport"/>
+    <nas:hasTRACONcity>Peachtree City</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPDKairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFTYairport"/>
+    <nas:hasTRACONstate>Georgia</nas:hasTRACONstate>
+    <rdfs:label>Atlanta TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLZUairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KWRBairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMGEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRYYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMCNairport"/>
+    <nas:hasTRACONid>A80</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAHNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCSGairport"/>
+    <nas:hasTRACONname>Atlanta TRACON</nas:hasTRACONname>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#DetroitTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>D21</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDETairport"/>
+    <nas:hasTRACONcity>Detroit</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPTKairport"/>
+    <nas:hasTRACONstate>Michigan</nas:hasTRACONstate>
+    <rdfs:label>Detroit TRACON</rdfs:label>
+    <nas:hasTRACONname>Detroit TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KYIPairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDTWairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KARBairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BismarckTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>North Dakota</nas:hasTRACONstate>
+    <nas:hasTRACONname>Bismarck Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>BIS</nas:hasTRACONid>
+    <nas:hasTRACONcity>Bismarck</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBISairport"/>
+    <rdfs:label>Bismarck Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#OmahaTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLNKairport"/>
+    <nas:hasTRACONname>Omaha TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOMAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasTRACONstate>Nebraska</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <rdfs:label>Omaha TRACON</rdfs:label>
+    <nas:hasTRACONid>R90</nas:hasTRACONid>
+    <nas:hasTRACONcity>Bellevue</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOFFairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CharlestonTowerTRACON">
+    <nas:hasTRACONstate>West Virginia</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHSairport"/>
+    <nas:hasTRACONid>CHS</nas:hasTRACONid>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>Charleston Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Charleston Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasTRACONcity>Charleston</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCRWairport"/>
+    <nas:hasTRACONstate>South Carolina</nas:hasTRACONstate>
+    <nas:hasTRACONid>CRW</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SavannahTowerTRACON">
+    <nas:hasTRACONcity>Savannah</nas:hasTRACONcity>
+    <nas:hasTRACONid>SAV</nas:hasTRACONid>
+    <nas:hasTRACONstate>Georgia</nas:hasTRACONstate>
+    <nas:hasTRACONname>Savannah Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSVNairport"/>
+    <rdfs:label>Savannah Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLHWairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHXDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSAVairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#Akron-CantonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Ohio</nas:hasTRACONstate>
+    <nas:hasTRACONname>Akron-Canton Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>CAK</nas:hasTRACONid>
+    <nas:hasTRACONcity>North Canton</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCAKairport"/>
+    <rdfs:label>Akron-Canton Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SouthernCaliforniaTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSMOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTOAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSBDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFULairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KONTairport"/>
+    <nas:hasTRACONname>Southern California TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KWHPairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KVNYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPSPairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLAcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRNMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLAXairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONstate>California</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSLIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNZYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBURairport"/>
+    <nas:hasTRACONid>SCT</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRALairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNKXairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNFGairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHHRairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSNAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCNOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPOCairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSDMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLGBairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSEEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNRSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCRQairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEMTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMYFairport"/>
+    <rdfs:label>Southern California TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSANairport"/>
+    <nas:hasTRACONcity>San Diego</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SouthBendTowerTRACON">
+    <rdfs:label>South Bend Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>South Bend Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSBNairport"/>
+    <nas:hasTRACONid>SBN</nas:hasTRACONid>
+    <nas:hasTRACONcity>South Bend</nas:hasTRACONcity>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEKMairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONstate>Indiana</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BangorTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Maine</nas:hasTRACONstate>
+    <nas:hasTRACONname>Bangor Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>BGR</nas:hasTRACONid>
+    <nas:hasTRACONcity>Bangor</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBGRairport"/>
+    <rdfs:label>Bangor Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MiamiTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTMBairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHWOairport"/>
+    <nas:hasTRACONname>Miami Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Miami Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOPFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMIAairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPMPairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFLLairport"/>
+    <nas:hasTRACONcity>Miami</nas:hasTRACONcity>
+    <nas:hasTRACONid>MIA</nas:hasTRACONid>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFXEairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#OklahomaCityTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOUNairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOKCairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <nas:hasTRACONstate>Oklahoma</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTIKairport"/>
+    <rdfs:label>Oklahoma City Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPWAairport"/>
+    <nas:hasTRACONid>OKC</nas:hasTRACONid>
+    <nas:hasTRACONname>Oklahoma City Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>Oklahoma City</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FortMyersTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRSWairport"/>
+    <nas:hasTRACONid>RSW</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFMYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasTRACONname>Fort Myers Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Fort Myers Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAPFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPGDairport"/>
+    <nas:hasTRACONcity>Fort Myers</nas:hasTRACONcity>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#RoswellTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>New Mexico</nas:hasTRACONstate>
+    <nas:hasTRACONname>Roswell Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ROW</nas:hasTRACONid>
+    <nas:hasTRACONcity>Roswell</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KROWairport"/>
+    <rdfs:label>Roswell Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SaginawTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Michigan</nas:hasTRACONstate>
+    <nas:hasTRACONname>Saginaw Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>MBS</nas:hasTRACONid>
+    <nas:hasTRACONcity>Freeland</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMBSairport"/>
+    <rdfs:label>Saginaw Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SyracuseTowerTRACON">
+    <rdfs:label>Syracuse Tower TRACON</rdfs:label>
+    <nas:hasTRACONid>SYR</nas:hasTRACONid>
+    <nas:hasTRACONcity>North Syracuse</nas:hasTRACONcity>
+    <nas:hasTRACONname>Syracuse Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasTRACONstate>New York</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRMEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSYRairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#EugeneTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEUGairport"/>
+    <nas:hasTRACONcity>Eugene</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMFRairport"/>
+    <rdfs:label>Eugene Tower TRACON</rdfs:label>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONstate>Oregon</nas:hasTRACONstate>
+    <nas:hasTRACONid>EUG</nas:hasTRACONid>
+    <nas:hasTRACONname>Eugene Tower TRACON</nas:hasTRACONname>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#HelenaTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Montana</nas:hasTRACONstate>
+    <nas:hasTRACONname>Helena Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>HLN</nas:hasTRACONid>
+    <nas:hasTRACONcity>Helena</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHLNairport"/>
+    <rdfs:label>Helena Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PalmBeachTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPBIairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBCTairport"/>
+    <rdfs:label>Palm Beach Tower TRACON</rdfs:label>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasTRACONname>Palm Beach Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONcity>West Palm Beach</nas:hasTRACONcity>
+    <nas:hasTRACONid>PBI</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSUAairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#TulsaTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZKCcenter"/>
+    <nas:hasTRACONid>TUL</nas:hasTRACONid>
+    <nas:hasTRACONname>Tulsa Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRVSairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <rdfs:label>Tulsa Tower TRACON</rdfs:label>
+    <nas:hasTRACONstate>Oklahoma</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTULairport"/>
+    <nas:hasTRACONcity>Tulsa</nas:hasTRACONcity>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ElPasoTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>El Paso</nas:hasTRACONcity>
+    <nas:hasTRACONname>El Paso Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBIFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KELPairport"/>
+    <rdfs:label>El Paso Tower TRACON</rdfs:label>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter"/>
+    <nas:hasTRACONid>ELP</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AmarilloTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasTRACONname>Amarillo Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>AMA</nas:hasTRACONid>
+    <nas:hasTRACONcity>Amarillo</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAMAairport"/>
+    <rdfs:label>Amarillo Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FayettevilleTowerTRACON">
+    <nas:hasTRACONid>FAY</nas:hasTRACONid>
+    <nas:hasTRACONcity>Fayetteville</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFAYairport"/>
+    <rdfs:label>Fayetteville Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHFFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPOBairport"/>
+    <nas:hasTRACONname>Fayetteville Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>North Carolina</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFBGairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ColumbusTowerTRACON">
+    <rdfs:label>Columbus Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Columbus Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONcity>Columbus</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KILNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFFOairport"/>
+    <nas:hasTRACONstate>Ohio</nas:hasTRACONstate>
+    <nas:hasTRACONid>CMH</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDAYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCMHairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLCKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSGHairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOSUairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTZRairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#QuadCityTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Illinois</nas:hasTRACONstate>
+    <nas:hasTRACONname>Quad City Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>MLI</nas:hasTRACONid>
+    <nas:hasTRACONcity>Milan</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMLIairport"/>
+    <rdfs:label>Quad City Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#DenverTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAPAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPUBairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBJCairport"/>
+    <rdfs:label>Denver TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGJTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDENairport"/>
+    <nas:hasTRACONstate>Colorado</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBKFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDVcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFTGairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Denver</nas:hasTRACONcity>
+    <nas:hasTRACONname>Denver TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>D01</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#GreenBayTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>GRB</nas:hasTRACONid>
+    <nas:hasTRACONname>Green Bay Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KATWairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Wisconsin</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Green Bay</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGRBairport"/>
+    <rdfs:label>Green Bay Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FlorenceTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>South Carolina</nas:hasTRACONstate>
+    <nas:hasTRACONname>Florence Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>FLO</nas:hasTRACONid>
+    <nas:hasTRACONcity>Florence</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFLOairport"/>
+    <rdfs:label>Florence Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#TerreHaute-HulmanTowerTRACON">
+    <nas:hasTRACONstate>Indiana</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHUFairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <rdfs:label>Terre Haute-Hulman Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBMGairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Terra Haute</nas:hasTRACONcity>
+    <nas:hasTRACONname>Terre Haute-Hulman Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>HUF</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FargoTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>North Dakota</nas:hasTRACONstate>
+    <nas:hasTRACONname>Fargo Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>FAR</nas:hasTRACONid>
+    <nas:hasTRACONcity>Fargo</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFARairport"/>
+    <rdfs:label>Fargo Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CasperTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Wyoming</nas:hasTRACONstate>
+    <nas:hasTRACONname>Casper Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>CPR</nas:hasTRACONid>
+    <nas:hasTRACONcity>Casper</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDVcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCPRairport"/>
+    <rdfs:label>Casper Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FortSmithTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFSMairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KXNAairport"/>
+    <rdfs:label>Fort Smith Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KROGairport"/>
+    <nas:hasTRACONid>FSM</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFYVairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KASGairport"/>
+    <nas:hasTRACONname>Fort Smith Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Arkansas</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Fort Smith</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#WacoTowerTRACON">
+    <nas:hasTRACONname>Waco Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCNWairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONid>ACT</nas:hasTRACONid>
+    <nas:hasTRACONcity>Waco</nas:hasTRACONcity>
+    <rdfs:label>Waco Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KACTairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SiouxGatewayTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Iowa</nas:hasTRACONstate>
+    <nas:hasTRACONname>Sioux Gateway Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>SUX</nas:hasTRACONid>
+    <nas:hasTRACONcity>Sioux City</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSUXairport"/>
+    <rdfs:label>Sioux Gateway Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MadisonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Wisconsin</nas:hasTRACONstate>
+    <nas:hasTRACONname>Madison Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>MSN</nas:hasTRACONid>
+    <nas:hasTRACONcity>Madison</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMSNairport"/>
+    <rdfs:label>Madison Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#KansasCityTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIXDairport"/>
+    <nas:hasTRACONcity>Kansas City</nas:hasTRACONcity>
+    <nas:hasTRACONname>Kansas City Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Missouri</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOJCairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMKCairport"/>
+    <nas:hasTRACONid>MCI</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZKCcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMCIairport"/>
+    <rdfs:label>Kansas City Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#IndianapolisTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMIEairport"/>
+    <nas:hasTRACONstate>Indiana</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Indianapolis</nas:hasTRACONcity>
+    <rdfs:label>Indianapolis Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBAKairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>IND</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KINDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#11IIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAIDairport"/>
+    <nas:hasTRACONname>Indianapolis Tower TRACON</nas:hasTRACONname>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LansingTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLANairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJXNairport"/>
+    <rdfs:label>Lansing Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Lansing</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>LAN</nas:hasTRACONid>
+    <nas:hasTRACONstate>Michigan</nas:hasTRACONstate>
+    <nas:hasTRACONname>Lansing Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MidlandTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <rdfs:label>Midland Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Midland Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMAFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSJTairport"/>
+    <nas:hasTRACONcity>Midland</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>MAF</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#JacksonTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJANairport"/>
+    <nas:hasTRACONname>Jackson Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHKSairport"/>
+    <nas:hasTRACONstate>Mississippi</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <nas:hasTRACONid>JAN</nas:hasTRACONid>
+    <rdfs:label>Jackson Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Jackson</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#KnoxvilleTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Tennessee</nas:hasTRACONstate>
+    <nas:hasTRACONname>Knoxville Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>TYS</nas:hasTRACONid>
+    <nas:hasTRACONcity>Loisville</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTYSairport"/>
+    <rdfs:label>Knoxville Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LexingtonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Kentucky</nas:hasTRACONstate>
+    <nas:hasTRACONname>Lexington Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>LEX</nas:hasTRACONid>
+    <nas:hasTRACONcity>Lexington</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLEXairport"/>
+    <rdfs:label>Lexington Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#Raleigh-DurhamTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>North Carolina</nas:hasTRACONstate>
+    <nas:hasTRACONname>Raleigh-Durham Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>RDU</nas:hasTRACONid>
+    <nas:hasTRACONcity>Morrisville</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRDUairport"/>
+    <rdfs:label>Raleigh-Durham Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CedarRapidsTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Iowa</nas:hasTRACONstate>
+    <nas:hasTRACONname>Cedar Rapids Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>CID</nas:hasTRACONid>
+    <nas:hasTRACONcity>Cedar Rapids</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCIDairport"/>
+    <rdfs:label>Cedar Rapids Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#NorthernCaliforniaTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOAKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLVKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRHVairport"/>
+    <nas:hasTRACONname>Northern California TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOAcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSACairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRNOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSCKairport"/>
+    <nas:hasTRACONstate>California</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Mather</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSQLairport"/>
+    <rdfs:label>Northern California TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNUQairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSFOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMHRairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSMFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHWDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSNSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSJCairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMODairport"/>
+    <nas:hasTRACONid>NCT</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPAOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBABairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMERairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMRYairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AshevilleTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>North Carolina</nas:hasTRACONstate>
+    <nas:hasTRACONname>Asheville Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>AVL</nas:hasTRACONid>
+    <nas:hasTRACONcity>Fletcher</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAVLairport"/>
+    <rdfs:label>Asheville Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PotomacTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFDKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KESNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMTNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHEFairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Warrenton</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMRBairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRICairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIADairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHGRairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHOairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDAAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KADWairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBWIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAPGairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDCAairport"/>
+    <nas:hasTRACONid>PCT</nas:hasTRACONid>
+    <rdfs:label>Potomac TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <nas:hasTRACONstate>Virginia</nas:hasTRACONstate>
+    <nas:hasTRACONname>Potomac TRACON</nas:hasTRACONname>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BakersfieldTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>California</nas:hasTRACONstate>
+    <nas:hasTRACONname>Bakersfield Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>BFL</nas:hasTRACONid>
+    <nas:hasTRACONcity>Bakersfield</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLAcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBFLairport"/>
+    <rdfs:label>Bakersfield Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#RockfordTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJVLairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRFDairport"/>
+    <nas:hasTRACONname>Rockford Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasTRACONid>RFD</nas:hasTRACONid>
+    <rdfs:label>Rockford Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONstate>Illinois</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Rockford</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ToledoTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Ohio</nas:hasTRACONstate>
+    <nas:hasTRACONname>Toledo Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>TOL</nas:hasTRACONid>
+    <nas:hasTRACONcity>Swanton</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTOLairport"/>
+    <rdfs:label>Toledo Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CharlotteTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <rdfs:label>Charlotte Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJQFairport"/>
+    <nas:hasTRACONcity>Charlotte</nas:hasTRACONcity>
+    <nas:hasTRACONname>Charlotte Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>North Carolina</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCLTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KVUJairport"/>
+    <nas:hasTRACONid>CLT</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ChatanoogaTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Tennessee</nas:hasTRACONstate>
+    <nas:hasTRACONname>Chatanooga Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>CHA</nas:hasTRACONid>
+    <nas:hasTRACONcity>Chattanooga</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHAairport"/>
+    <rdfs:label>Chatanooga Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#NewOrleansTowerTRACON">
+    <rdfs:label>New Orleans Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNEWairport"/>
+    <nas:hasTRACONname>New Orleans Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMSYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNBGairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHUMairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>New Orleans</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Louisiana</nas:hasTRACONstate>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONid>MSY</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#NashvilleTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>Nashville</nas:hasTRACONcity>
+    <nas:hasTRACONid>BNA</nas:hasTRACONid>
+    <nas:hasTRACONstate>Tennessee</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMQYairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONname>Nashville Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBNAairport"/>
+    <rdfs:label>Nashville Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FairbanksTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZANcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PAFBairport"/>
+    <rdfs:label>Fairbanks Tower TRACON</rdfs:label>
+    <nas:hasTRACONstate>Alaska</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PAEIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PAFAairport"/>
+    <nas:hasTRACONcity>Fairbanks</nas:hasTRACONcity>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONname>Fairbanks Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>FAI</nas:hasTRACONid>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MuskegonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Michigan</nas:hasTRACONstate>
+    <nas:hasTRACONname>Muskegon Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>MKG</nas:hasTRACONid>
+    <nas:hasTRACONcity>Muskegon</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMKGairport"/>
+    <rdfs:label>Muskegon Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PeoriaTowerTRACON">
+    <nas:hasTRACONid>PIA</nas:hasTRACONid>
+    <nas:hasTRACONname>Peoria Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Illinois</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBMIairport"/>
+    <rdfs:label>Peoria Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPIAairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>Peoria</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PortlandTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Maine</nas:hasTRACONstate>
+    <nas:hasTRACONname>Portland Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>PWM</nas:hasTRACONid>
+    <nas:hasTRACONcity>Portland</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPWMairport"/>
+    <rdfs:label>Portland Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AnchorageTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PAEDairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>Anchorage TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PAFRairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PALHairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PANCairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PAMRairport"/>
+    <rdfs:label>Anchorage TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZANcenter"/>
+    <nas:hasTRACONcity>Anchorage</nas:hasTRACONcity>
+    <nas:hasTRACONid>A11</nas:hasTRACONid>
+    <nas:hasTRACONstate>Alaska</nas:hasTRACONstate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CincinnatiTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Erlanger</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Kentucky</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCVGairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLUKairport"/>
+    <nas:hasTRACONid>CVG</nas:hasTRACONid>
+    <rdfs:label>Cincinnati Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Cincinnati Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#WilmingtonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>North Carolina</nas:hasTRACONstate>
+    <nas:hasTRACONname>Wilmington Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ILM</nas:hasTRACONid>
+    <nas:hasTRACONcity>Wilmington</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KILMairport"/>
+    <rdfs:label>Wilmington Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SpokaneTowerTRACON">
+    <rdfs:label>Spokane Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMSOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSFFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSKAairport"/>
+    <nas:hasTRACONname>Spokane Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONstate>Washington</nas:hasTRACONstate>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Spokane</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter"/>
+    <nas:hasTRACONid>GEG</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGEGairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#HuntsvilleTowerTRACON">
+    <nas:hasTRACONstate>Alabama</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHUAairport"/>
+    <nas:hasTRACONcity>Huntsville</nas:hasTRACONcity>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONid>HSV</nas:hasTRACONid>
+    <nas:hasTRACONname>Huntsville Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Huntsville Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHSVairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#DaytonaBeachTowerTRACON">
+    <rdfs:label>Daytona Beach Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Daytona Beach</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFINairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDABairport"/>
+    <nas:hasTRACONid>DAB</nas:hasTRACONid>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOMNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEVBairport"/>
+    <nas:hasTRACONname>Daytona Beach Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MansfieldTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Ohio</nas:hasTRACONstate>
+    <nas:hasTRACONname>Mansfield Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>MFD</nas:hasTRACONid>
+    <nas:hasTRACONcity>Mansfield</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMFDairport"/>
+    <rdfs:label>Mansfield Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ElmiraTowerTRACON">
+    <nas:hasTRACONname>Elmira Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONcity>Elmira</nas:hasTRACONcity>
+    <nas:hasTRACONid>ELM</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdfs:label>Elmira Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+    <nas:hasTRACONstate>New York</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KELMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KITHairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#GrantCountyTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Washington</nas:hasTRACONstate>
+    <nas:hasTRACONname>Grant County Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>MWH</nas:hasTRACONid>
+    <nas:hasTRACONcity>Moses Lake</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMWHairport"/>
+    <rdfs:label>Grant County Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MyrtleBeachTowerTRACON">
+    <nas:hasTRACONname>Myrtle Beach Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>South Carolina</nas:hasTRACONstate>
+    <nas:hasTRACONid>MYR</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdfs:label>Myrtle Beach Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Myrtle Beach</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMYRairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCREairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#YoungstownTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Ohio</nas:hasTRACONstate>
+    <nas:hasTRACONname>Youngstown Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>YNG</nas:hasTRACONid>
+    <nas:hasTRACONcity>Vienna</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KYNGairport"/>
+    <rdfs:label>Youngstown Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#Dallas-FtWorthTRACON">
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KADSairport"/>
+    <nas:hasTRACONid>D10</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFWSairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDFWairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGKYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAFWairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDTOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHQZairport"/>
+    <nas:hasTRACONcity>Dallas-Fort Worth</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNFWairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFTWairport"/>
+    <nas:hasTRACONname>Dallas - Ft Worth TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTKIairport"/>
+    <rdfs:label>Dallas - Ft Worth TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGPMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRBDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDALairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BirminghamTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBHMairport"/>
+    <nas:hasTRACONname>Birmingham Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONcity>Birmingham</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTCLairport"/>
+    <nas:hasTRACONid>BHM</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasTRACONstate>Alabama</nas:hasTRACONstate>
+    <rdfs:label>Birmingham Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CapeTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KACKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMVYairport"/>
+    <nas:hasTRACONcity>Falmouth</nas:hasTRACONcity>
+    <rdfs:label>Cape TRACON</rdfs:label>
+    <nas:hasTRACONid>K90</nas:hasTRACONid>
+    <nas:hasTRACONname>Cape TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFMHairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHYAairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Massachusetts</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AustinTowerTRACON">
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasTRACONname>Austin Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Austin Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGTUairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHYIairport"/>
+    <nas:hasTRACONcity>Austin</nas:hasTRACONcity>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAUSairport"/>
+    <nas:hasTRACONid>AUS</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MilwaukeeTowerTRACON">
+    <nas:hasTRACONstate>Wisconsin</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOSHairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONid>MKE</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMKEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMWCairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasTRACONcity>Milwaukee</nas:hasTRACONcity>
+    <nas:hasTRACONname>Milwaukee Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KENWairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <rdfs:label>Milwaukee Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KUESairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AlbanyTowerTRACON">
+    <rdfs:label>Albany Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KALBairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>Latham</nas:hasTRACONcity>
+    <nas:hasTRACONname>Albany Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ALB</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSCHairport"/>
+    <nas:hasTRACONstate>New York</nas:hasTRACONstate>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PortlandTRACONTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter"/>
+    <nas:hasTRACONstate>Oregon</nas:hasTRACONstate>
+    <nas:hasTRACONname>Portland TRACON TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHIOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPDXairport"/>
+    <nas:hasTRACONid>P80</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTTDairport"/>
+    <rdfs:label>Portland TRACON TRACON</rdfs:label>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>Portland</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AtlanticCityTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>New Jersey</nas:hasTRACONstate>
+    <nas:hasTRACONname>Atlantic City Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ACY</nas:hasTRACONid>
+    <nas:hasTRACONcity>Atlantic City</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KACYairport"/>
+    <rdfs:label>Atlantic City Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ChicagoTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KUGNairport"/>
+    <nas:hasTRACONname>Chicago TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGYYairport"/>
+    <rdfs:label>Chicago TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KARRairport"/>
+    <nas:hasTRACONstate>Illinois</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDPAairport"/>
+    <nas:hasTRACONcity>Elgin</nas:hasTRACONcity>
+    <nas:hasTRACONid>C90</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPWKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMDWairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MemphisTRACON">
+    <rdfs:label>Memphis TRACON</rdfs:label>
+    <nas:hasTRACONname>Memphis TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Tennessee</nas:hasTRACONstate>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <nas:hasTRACONid>M03</nas:hasTRACONid>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNQAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMEMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOLVairport"/>
+    <nas:hasTRACONcity>Memphis</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ReadingTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Pennsylvania</nas:hasTRACONstate>
+    <nas:hasTRACONname>Reading Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>RDG</nas:hasTRACONid>
+    <nas:hasTRACONcity>Reading</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRDGairport"/>
+    <rdfs:label>Reading Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LasVegasTRACON">
+    <nas:hasTRACONname>Las Vegas TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>L30</nas:hasTRACONid>
+    <nas:hasTRACONstate>Nevada</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHNDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLAcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLASairport"/>
+    <nas:hasTRACONcity>Las Vegas</nas:hasTRACONcity>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <rdfs:label>Las Vegas TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AugustaTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Georgia</nas:hasTRACONstate>
+    <nas:hasTRACONname>Augusta Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>AGS</nas:hasTRACONid>
+    <nas:hasTRACONcity>Augusta</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAGSairport"/>
+    <rdfs:label>Augusta Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#StandifordTowerTRACON">
+    <nas:hasTRACONstate>Kentucky</nas:hasTRACONstate>
+    <nas:hasTRACONname>Standiford Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>SDF</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLOUairport"/>
+    <rdfs:label>Standiford Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSDFairport"/>
+    <nas:hasTRACONcity>Louisville</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFTKairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BatonRougeTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Louisiana</nas:hasTRACONstate>
+    <nas:hasTRACONname>Baton Rouge Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>BTR</nas:hasTRACONid>
+    <nas:hasTRACONcity>Baton Rouge</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBTRairport"/>
+    <rdfs:label>Baton Rouge Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SiouxFallsTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>South Dakota</nas:hasTRACONstate>
+    <nas:hasTRACONname>Sioux Falls Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>FSD</nas:hasTRACONid>
+    <nas:hasTRACONcity>Sioux Falls</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFSDairport"/>
+    <rdfs:label>Sioux Falls Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BuffaloTowerTRACON">
+    <rdfs:label>Buffalo Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>BUF</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Cheektowaga</nas:hasTRACONcity>
+    <nas:hasTRACONname>Buffalo Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBUFairport"/>
+    <nas:hasTRACONstate>New York</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIAGairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#JacksonvilleTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasTRACONcity>Jacksonville</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSGJairport"/>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasTRACONid>JAX</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGNVairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOCFairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>Jacksonville Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNENairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNRBairport"/>
+    <rdfs:label>Jacksonville Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNIPairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJAXairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KVQQairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCRGairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#NewYorkTRACON">
+    <nas:hasTRACONcity>Westbury</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBDRairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOXCairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTEBairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHTOairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFRGairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHVNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSWFairport"/>
+    <nas:hasTRACONstate>New York</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KISPairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFOKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPOUairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLGAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCDWairport"/>
+    <nas:hasTRACONid>N90</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMMUairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJFKairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEWRairport"/>
+    <nas:hasTRACONname>New York TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHPNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDXRairport"/>
+    <rdfs:label>New York TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PhiladelphiaTowerTRACON">
+    <nas:hasTRACONid>PHL</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPHLairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTTNairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPNEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+    <rdfs:label>Philadelphia Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Philadelphia Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KILGairport"/>
+    <nas:hasTRACONstate>Pennsylvania</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Philadelphia</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MontgomeryTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMXFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMGMairport"/>
+    <nas:hasTRACONname>Montgomery Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Alabama</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <rdfs:label>Montgomery Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Hope Hull</nas:hasTRACONcity>
+    <nas:hasTRACONid>MGM</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SeattleTRACON">
+    <nas:hasTRACONid>S46</nas:hasTRACONid>
+    <nas:hasTRACONcity>Burien</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOLMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRNTairport"/>
+    <rdfs:label>Seattle TRACON</rdfs:label>
+    <nas:hasTRACONname>Seattle TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBFIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSEAairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTCMairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Washington</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTIWairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPAEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGRFairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MeridianTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMEIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNMMairport"/>
+    <nas:hasTRACONcity>Meridian</nas:hasTRACONcity>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>NMM</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONname>Meridian Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Meridian Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <nas:hasTRACONstate>Mississippi</nas:hasTRACONstate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FresnoTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>California</nas:hasTRACONstate>
+    <nas:hasTRACONname>Fresno Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>FAT</nas:hasTRACONid>
+    <nas:hasTRACONcity>Fresno</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOAcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFATairport"/>
+    <rdfs:label>Fresno Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ProvidenceTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPVDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOQUairport"/>
+    <rdfs:label>Providence Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasTRACONname>Providence Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>PVD</nas:hasTRACONid>
+    <nas:hasTRACONcity>Warwick</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEWBairport"/>
+    <nas:hasTRACONstate>Rhode Island</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGONairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#MonroeTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Louisiana</nas:hasTRACONstate>
+    <nas:hasTRACONname>Monroe Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>MLU</nas:hasTRACONid>
+    <nas:hasTRACONcity>Monroe</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMLUairport"/>
+    <rdfs:label>Monroe Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ColoradoSpringsTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCOSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDVcenter"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>Colorado Springs Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONcity>Peterson AFB</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Colorado</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFCSairport"/>
+    <rdfs:label>Colorado Springs Tower TRACON</rdfs:label>
+    <nas:hasTRACONid>COS</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ClarksburgTowerTRACON">
+    <nas:hasTRACONstate>West Virginia</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCKBairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>Clarksburg Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMGWairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <rdfs:label>Clarksburg Tower TRACON</rdfs:label>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Bridgeport</nas:hasTRACONcity>
+    <nas:hasTRACONid>CKB</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#TallahasseeTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasTRACONname>Tallahassee Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>TLH</nas:hasTRACONid>
+    <nas:hasTRACONcity>Tallahassee</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTLHairport"/>
+    <rdfs:label>Tallahassee Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ErieTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Pennsylvania</nas:hasTRACONstate>
+    <nas:hasTRACONname>Erie Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ERI</nas:hasTRACONid>
+    <nas:hasTRACONcity>Erie</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KERIairport"/>
+    <rdfs:label>Erie Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#HiloTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Hawaii</nas:hasTRACONstate>
+    <nas:hasTRACONname>Hilo Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ITO</nas:hasTRACONid>
+    <nas:hasTRACONcity>Hilo</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHNcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PHTOairport"/>
+    <rdfs:label>Hilo Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#Wilkes-BarreTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Pennsylvania</nas:hasTRACONstate>
+    <nas:hasTRACONname>Wilkes-Barre Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>AVP</nas:hasTRACONid>
+    <nas:hasTRACONcity>Avoca</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAVPairport"/>
+    <rdfs:label>Wilkes-Barre Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#WichitaTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdfs:label>Wichita Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBECairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONstate>Kansas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZKCcenter"/>
+    <nas:hasTRACONname>Wichita Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHUTairport"/>
+    <nas:hasTRACONcity>Wichita</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIABairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KICTairport"/>
+    <nas:hasTRACONid>ICT</nas:hasTRACONid>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SanAntonioTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBAZairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRNDairport"/>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSKFairport"/>
+    <nas:hasTRACONcity>San Antonio</nas:hasTRACONcity>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSSFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSATairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <nas:hasTRACONname>San Antonio Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>SAT</nas:hasTRACONid>
+    <rdfs:label>San Antonio Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FortWayneTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Indiana</nas:hasTRACONstate>
+    <nas:hasTRACONname>Fort Wayne Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>FWA</nas:hasTRACONid>
+    <nas:hasTRACONcity>Fort Wayne</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFWAairport"/>
+    <rdfs:label>Fort Wayne Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#TwinFallsTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Idaho</nas:hasTRACONstate>
+    <nas:hasTRACONname>Twin Falls Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>TWF</nas:hasTRACONid>
+    <nas:hasTRACONcity>Twin Falls</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTWFairport"/>
+    <rdfs:label>Twin Falls Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AlbuquerqueTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Albuquerque</nas:hasTRACONcity>
+    <rdfs:label>Albuquerque Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KABQairport"/>
+    <nas:hasTRACONid>ABQ</nas:hasTRACONid>
+    <nas:hasTRACONname>Albuquerque Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAEGairport"/>
+    <nas:hasTRACONstate>New Mexico</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ChampaignTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>CMI</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONname>Champaign Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDECairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCMIairport"/>
+    <nas:hasTRACONcity>Savoy</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Illinois</nas:hasTRACONstate>
+    <rdfs:label>Champaign Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PensacolaTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNFJairport"/>
+    <nas:hasTRACONname>Pensacola TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNPAairport"/>
+    <nas:hasTRACONcity>Pensacola</nas:hasTRACONcity>
+    <nas:hasTRACONid>P31</nas:hasTRACONid>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <rdfs:label>Pensacola TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPNSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNSEairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LongviewTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONcity>Longview</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <nas:hasTRACONname>Longview Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGGGairport"/>
+    <rdfs:label>Longview Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTYRairport"/>
+    <nas:hasTRACONid>GGG</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SaltLakeCityTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPVUairport"/>
+    <nas:hasTRACONcity>Salt Lake City</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSLCairport"/>
+    <nas:hasTRACONid>S56</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOGDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHIFairport"/>
+    <nas:hasTRACONname>Salt Lake City TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <rdfs:label>Salt Lake City TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONstate>Utah</nas:hasTRACONstate>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#RoanokeTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KROAairport"/>
+    <nas:hasTRACONstate>Virginia</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONname>Roanoke Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLYHairport"/>
+    <rdfs:label>Roanoke Tower TRACON</rdfs:label>
+    <nas:hasTRACONid>ROA</nas:hasTRACONid>
+    <nas:hasTRACONcity>Roanoke</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#WaterlooTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Iowa</nas:hasTRACONstate>
+    <nas:hasTRACONname>Waterloo Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ALO</nas:hasTRACONid>
+    <nas:hasTRACONcity>Waterloo</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KALOairport"/>
+    <rdfs:label>Waterloo Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BostonTRACON">
+    <nas:hasTRACONname>Boston TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOWDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBOSairport"/>
+    <nas:hasTRACONcity>Merrimack</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBEDairport"/>
+    <nas:hasTRACONstate>New Hampshire</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBVYairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPSMairport"/>
+    <nas:hasTRACONid>A90</nas:hasTRACONid>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <rdfs:label>Boston TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLWMairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMHTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KASHairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#DuluthTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Minnesota</nas:hasTRACONstate>
+    <nas:hasTRACONname>Duluth Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>DLH</nas:hasTRACONid>
+    <nas:hasTRACONcity>Duluth</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDLHairport"/>
+    <rdfs:label>Duluth Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BOISETowerTRACON">
+    <nas:hasTRACONstate>Idaho</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBOIairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>BOISE Tower TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBZNairport"/>
+    <nas:hasTRACONid>BOI</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdfs:label>BOISE Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Boise</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LafayetteTowerTRACON">
+    <nas:hasTRACONid>LFT</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLFTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KARAairport"/>
+    <nas:hasTRACONname>Lafayette Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONcity>Lafayette</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Louisiana</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <rdfs:label>Lafayette Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#AspenTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Colorado</nas:hasTRACONstate>
+    <nas:hasTRACONname>Aspen Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>ASE</nas:hasTRACONid>
+    <nas:hasTRACONcity>Aspen</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDVcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KASEairport"/>
+    <rdfs:label>Aspen Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BurlingtonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Vermont</nas:hasTRACONstate>
+    <nas:hasTRACONname>Burlington Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>BTV</nas:hasTRACONid>
+    <nas:hasTRACONcity>S. Burlington</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBTVairport"/>
+    <rdfs:label>Burlington Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#SpringfieldTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZKCcenter"/>
+    <nas:hasTRACONcity>Springfield</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSGFairport"/>
+    <nas:hasTRACONid>SPI</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCOUairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBBGairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSPIairport"/>
+    <nas:hasTRACONstate>Missouri</nas:hasTRACONstate>
+    <nas:hasTRACONstate>Illinois</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJEFairport"/>
+    <nas:hasTRACONid>SGF</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdfs:label>Springfield Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Springfield Tower TRACON</nas:hasTRACONname>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LakeCharlesTowerTRACON">
+    <nas:hasTRACONname>Lake Charles Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Louisiana</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCWFairport"/>
+    <nas:hasTRACONcity>Lake Charles</nas:hasTRACONcity>
+    <nas:hasTRACONid>LCH</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLCHairport"/>
+    <rdfs:label>Lake Charles Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ClevelandTowerTRACON">
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCGFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCLEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBKLairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONid>CLE</nas:hasTRACONid>
+    <nas:hasTRACONname>Cleveland Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Cleveland Tower TRACON</rdfs:label>
+    <nas:hasTRACONstate>Ohio</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Cleveland</nas:hasTRACONcity>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#StLouisTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCPSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBLVairport"/>
+    <rdfs:label>St Louis TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSTLairport"/>
+    <nas:hasTRACONcity>St. Charles</nas:hasTRACONcity>
+    <nas:hasTRACONid>T75</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZKCcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSUSairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KALNairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Missouri</nas:hasTRACONstate>
+    <nas:hasTRACONname>St Louis TRACON</nas:hasTRACONname>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#YankeeTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBDLairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHFDairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBAFairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCEFairport"/>
+    <nas:hasTRACONid>Y90</nas:hasTRACONid>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KORHairport"/>
+    <nas:hasTRACONcity>Windsor Locks</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Connecticut</nas:hasTRACONstate>
+    <nas:hasTRACONname>Yankee TRACON</nas:hasTRACONname>
+    <rdfs:label>Yankee TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#Tri-CitiesTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Tennessee</nas:hasTRACONstate>
+    <nas:hasTRACONname>Tri-Cities Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>TRI</nas:hasTRACONid>
+    <nas:hasTRACONcity>Blountville</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTRIairport"/>
+    <rdfs:label>Tri-Cities Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CentralFloridaTRACON">
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Florida</nas:hasTRACONstate>
+    <nas:hasTRACONname>Central Florida TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>F11</nas:hasTRACONid>
+    <nas:hasTRACONcity>Orlando</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMCOairport"/>
+    <rdfs:label>Central Florida TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LubbockTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasTRACONname>Lubbock Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>LBB</nas:hasTRACONid>
+    <nas:hasTRACONcity>Lubbock</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLBBairport"/>
+    <rdfs:label>Lubbock Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#LittleRockTowerTRACON">
+    <nas:hasTRACONid>LIT</nas:hasTRACONid>
+    <nas:hasTRACONcity>Little Rock</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLITairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KLRFairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>Little Rock Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONstate>Arkansas</nas:hasTRACONstate>
+    <rdfs:label>Little Rock Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BillingsTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Montana</nas:hasTRACONstate>
+    <nas:hasTRACONname>Billings Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>BIL</nas:hasTRACONid>
+    <nas:hasTRACONcity>Billings</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBILairport"/>
+    <rdfs:label>Billings Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CorpusChristiTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONcity>Corpus Christi</nas:hasTRACONcity>
+    <nas:hasTRACONstate>Texas</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCRPairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBROairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHRLairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KMFEairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNGPairport"/>
+    <nas:hasTRACONid>CRP</nas:hasTRACONid>
+    <rdfs:label>Corpus Christi Tower TRACON</rdfs:label>
+    <nas:hasTRACONname>Corpus Christi Tower TRACON</nas:hasTRACONname>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KNGWairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#GreensboroTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KINTairport"/>
+    <nas:hasTRACONid>GSO</nas:hasTRACONid>
+    <nas:hasTRACONstate>North Carolina</nas:hasTRACONstate>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>Greensboro Tower TRACON</nas:hasTRACONname>
+    <rdfs:label>Greensboro Tower TRACON</rdfs:label>
+    <nas:hasTRACONcity>Greensboro</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KGSOairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BinghamtonTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>New York</nas:hasTRACONstate>
+    <nas:hasTRACONname>Binghamton Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>BGM</nas:hasTRACONid>
+    <nas:hasTRACONcity>Johnson City</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBGMairport"/>
+    <rdfs:label>Binghamton Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#EvansvilleTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <nas:hasTRACONname>Evansville Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONcity>Evansville</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KEVVairport"/>
+    <nas:hasTRACONstate>Indiana</nas:hasTRACONstate>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONid>EVV</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KOWBairport"/>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <rdfs:label>Evansville Tower TRACON</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/TRACONinst">
+    <owl:imports rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#PhoenixTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDVTairport"/>
+    <nas:hasTRACONtype>TRACON</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPRCairport"/>
+    <nas:hasTRACONid>P50</nas:hasTRACONid>
+    <nas:hasTRACONname>Phoenix TRACON</nas:hasTRACONname>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFFZairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONstate>Arizona</nas:hasTRACONstate>
+    <rdfs:label>Phoenix TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPHXairport"/>
+    <nas:hasTRACONcity>Phoenix</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFLGairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSDLairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHDairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIWAairport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FAAPittsburghATCTowerTRACON">
+    <nas:hasTRACONstate>Pennsylvania</nas:hasTRACONstate>
+    <nas:hasTRACONcity>Pittsburgh</nas:hasTRACONcity>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasTRACONname>FAA Pittsburgh ATC Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBVIairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KPITairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KHLGairport"/>
+    <rdfs:label>FAA Pittsburgh ATC Tower TRACON</rdfs:label>
+    <nas:hasTRACONid>PIT</nas:hasTRACONid>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KAGCairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#FlintTowerTRACON">
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONstate>Michigan</nas:hasTRACONstate>
+    <nas:hasTRACONname>Flint Tower TRACON</nas:hasTRACONname>
+    <nas:hasTRACONid>FNT</nas:hasTRACONid>
+    <nas:hasTRACONcity>Flint</nas:hasTRACONcity>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KFNTairport"/>
+    <rdfs:label>Flint Tower TRACON</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#RochesterTowerTRACON">
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KRSTairport"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KROCairport"/>
+    <nas:hasTRACONstate>Minnesota</nas:hasTRACONstate>
+    <nas:hasTRACONid>RST</nas:hasTRACONid>
+    <nas:hasTRACONtype>TOWER</nas:hasTRACONtype>
+    <nas:hasTRACONid>ROC</nas:hasTRACONid>
+    <rdfs:label>Rochester Tower TRACON</rdfs:label>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TRACON"/>
+    <nas:hasLOAwith rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <nas:hasTRACONcity>Rochester</nas:hasTRACONcity>
+    <nas:hasTRACONstate>New York</nas:hasTRACONstate>
+    <nas:hasTRACONname>Rochester Tower TRACON</nas:hasTRACONname>
+  </rdf:Description>
+</rdf:RDF>

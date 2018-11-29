@@ -1,0 +1,673 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:eqp="https://data.nasa.gov/ontologies/atmonto/equipment#"
+    xmlns:atm="https://data.nasa.gov/ontologies/atmonto/ATM#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:nas="https://data.nasa.gov/ontologies/atmonto/NAS#"
+    xmlns:sp="http://spinrdf.org/sp#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:gen="https://data.nasa.gov/ontologies/atmonto/general#"
+    xmlns:smf="http://topbraid.org/sparqlmotionfunctions#"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions#"
+    xmlns:spin="http://spinrdf.org/spin#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATMinst">
+    <owl:imports rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_03">
+    <rdfs:label>rteCon07620120908 03</rdfs:label>
+    <atm:mustHaveOrigin rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_3"/>
+    <atm:mustHaveDestination rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#FlightSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_3">
+    <rdfs:label>RRTorig07620120908 3</rdfs:label>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_06">
+    <rdfs:label>rtePath07620120908 06</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_06"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_06"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_06"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_06"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_06"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_06"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_06"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedFlightRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_2">
+    <rdfs:label>PARcon02320120908 2</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_3"/>
+    <atm:hasNumericParameter rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRate_72"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRateContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_04">
+    <rdfs:label>NEC004 rtePath07620120908 04</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_04"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#MZZ"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_06">
+    <rdfs:label>NEC002 rtePath07620120908 06</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_06"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#GQO"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#J518SubPath07620120908_01">
+    <rdfs:label>J518 Subpath07620120908 01</rdfs:label>
+    <gen:subsequenceStartIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:subsequenceStartIndex>
+    <gen:subsequenceOf rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#J518"/>
+    <gen:subsequenceEndIndex rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</gen:subsequenceEndIndex>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirspaceRouteSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002-DAL1512-201209081903">
+    <rdfs:label>NEC002-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003-DAL1512-201209081903"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#CADIT"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRT07620120908">
+    <atm:allowedRoute rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_04"/>
+    <atm:reRouteType>ROUTE</atm:reRouteType>
+    <atm:issuedDay rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#Day20120908"/>
+    <atm:allowedRoute rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_05"/>
+    <atm:reRouteTimeType>FCA Flight List</atm:reRouteTimeType>
+    <atm:flightInclusionExclusion rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTscope07620120908"/>
+    <atm:issuedTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T16:00:00</atm:issuedTime>
+    <atm:extensionProbability>LOW</atm:extensionProbability>
+    <atm:allowedRoute rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_06"/>
+    <atm:reRouteReason>WEATHER</atm:reRouteReason>
+    <atm:allowedRoute rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_01"/>
+    <atm:initiativeComments>REPLACES ADVZY 052</atm:initiativeComments>
+    <atm:effectiveStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T18:00:00</atm:effectiveStartTime>
+    <rdfs:label>RRT07620120908</rdfs:label>
+    <atm:effectiveEndDay rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#Day20120908"/>
+    <atm:allowedRoute rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_03"/>
+    <atm:advisoryNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</atm:advisoryNumber>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ReRouteTMI"/>
+    <atm:controlledNASelement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+    <atm:implementationStatus>RQD</atm:implementationStatus>
+    <atm:allowedRoute rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_02"/>
+    <atm:effectiveStartDay rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#Day20120908"/>
+    <atm:effectiveEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T20:59:59</atm:effectiveEndTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_04">
+    <rdfs:label>NEC001 rtePath07620120908 04</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_04"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ATL"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_02">
+    <rdfs:label>NEC003 rtePath07620120908 02</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_02"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#MZZ"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004-DAL1512-201209081903">
+    <rdfs:label>NEC004-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005-DAL1512-201209081903"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#HOPAP"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#ROYKO3b">
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC006-ROYKO3b"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC012-ROYKO3b"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TransitionRoute"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC004-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC011-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC008-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC007-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC009-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC012-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC010-ROYKO3b"/>
+    <rdfs:label>ROYKO3b</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC005-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC003-ROYKO3b"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-ROYKO3b"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC002-ROYKO3b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_01">
+    <rdfs:label>NEC002 rtePath07620120908 01</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_01"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#J518SubPath07620120908_01"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_01">
+    <rdfs:label>rtePath07620120908 01</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_01"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_01"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_01"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_01"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_01"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_01"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_01"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedFlightRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_02">
+    <rdfs:label>seg07620120908 02</rdfs:label>
+    <atm:reRoutePath rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_02"/>
+    <atm:reRouteConstraint rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_02"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ReRouteSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003-DAL1512-201209081903">
+    <rdfs:label>NEC003-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004-DAL1512-201209081903"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#GLAZR"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedRouteDAL1512-201209081903">
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001-DAL1512-201209081903"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005-DAL1512-201209081903"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001-DAL1512-201209081903"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004-DAL1512-201209081903"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC008-DAL1512-201209081903"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC008-DAL1512-201209081903"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003-DAL1512-201209081903"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC007-DAL1512-201209081903"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedFlightRoute"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC006-DAL1512-201209081903"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002-DAL1512-201209081903"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#J518">
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC009-J518"/>
+    <rdfs:label>J518</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC007-J518"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC011-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC010-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC002-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC004-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC005-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC006-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC011-J518"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#JetRoute"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC008-J518"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-J518"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC003-J518"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_05">
+    <rdfs:label>rtePath07620120908 05</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_05"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_05"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_05"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_05"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_05"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_05"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedFlightRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_06">
+    <rdfs:label>seg07620120908 06</rdfs:label>
+    <atm:reRoutePath rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_06"/>
+    <atm:reRouteConstraint rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_06"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ReRouteSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#BENKY1c">
+    <rdfs:label>BENKY1c</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC004-BENKY1c"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC003-BENKY1c"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC002-BENKY1c"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-BENKY1c"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC004-BENKY1c"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-BENKY1c"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TransitionRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_04">
+    <rdfs:label>rteCon07620120908 04</rdfs:label>
+    <atm:mustHaveOrigin rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_4"/>
+    <atm:mustHaveDestination rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#FlightSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_2">
+    <rdfs:label>RRTorig07620120908 2</rdfs:label>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSAVairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJAXairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHSairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCAEairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBHMairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#PARseq02320120908">
+    <rdfs:label>PARseq02320120908</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_3"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_2"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_1"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_3"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_1"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRateSequence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_1">
+    <rdfs:label>PARcon02320120908_1</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_2"/>
+    <atm:hasNumericParameter rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRate_72"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRateContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_06">
+    <rdfs:label>NEC005 rtePath07620120908 06</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</gen:sequenceNumber>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#BENKY1c"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_6">
+    <rdfs:label>RRTorig07620120908 6</rdfs:label>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTYSairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908">
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KTYSairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport"/>
+    <rdfs:label>RRTorig07620120908</rdfs:label>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBWIairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCAEairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHSairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBHMairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHAairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIADairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDCAairport"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KJAXairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KSAVairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KADWairport"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#GDPdscope02320120908">
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMPcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZNYcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLCcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZABcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZTLcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDVcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOBcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZLAcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZSEcenter"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#CYOWairport"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZJXcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZDCcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZFWcenter"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#CYULairport"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZKCcenter"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+    <rdfs:label>Departure Scope for GDP 023 on 2012/09/08</rdfs:label>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZOAcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMEcenter"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#CYHZairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#CYYZairport"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZBWcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZAUcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZHUcenter"/>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZIDcenter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_04">
+    <rdfs:label>NEC003 rtePath07620120908 04</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_04"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PXV"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_05">
+    <rdfs:label>NEC004 rtePath07620120908 05</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#BENKY1c"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_06">
+    <rdfs:label>NEC001 rtePath07620120908 06</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_06"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#VXV"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_05">
+    <rdfs:label>NEC001 rtePath07620120908 05</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_05"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#GQO"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_03">
+    <rdfs:label>NEC003 rtePath07620120908 03</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_03"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PXV"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_02">
+    <rdfs:label>NEC002 rtePath07620120908 02</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_02"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#PXV"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_01">
+    <rdfs:label>NEC001 rtePath07620120908 01</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_01"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#BUFFR"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_01">
+    <rdfs:label>NEC005 rtePath07620120908 01</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</gen:sequenceNumber>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#WYNDE4a"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_01">
+    <rdfs:label>rte07620120908 01</rdfs:label>
+    <atm:reRoutePath rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_01"/>
+    <atm:reRouteConstraint rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_01"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ReRouteSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_04">
+    <rdfs:label>rtePath07620120908 04</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_04"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_04"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_04"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_04"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_04"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_04"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_04"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedFlightRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTscope07620120908">
+    <rdfs:label>RRTspec07620120908</rdfs:label>
+    <atm:mustHaveOrigin rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908"/>
+    <atm:mustHaveDestination rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#FlightSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001-DAL1512-201209081903">
+    <rdfs:label>NEC001-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002-DAL1512-201209081903"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#CADIT6a"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#CADIT6a">
+    <rdfs:label>CADIT6a</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC003-CADIT6a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC002-CADIT6a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-CADIT6a"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC003-CADIT6a"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-CADIT6a"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TransitionRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_05">
+    <rdfs:label>seg07620120908 05</rdfs:label>
+    <atm:reRoutePath rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_05"/>
+    <atm:reRouteConstraint rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_05"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ReRouteSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_1">
+    <rdfs:label>RRTorig07620120908 1</rdfs:label>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KIADairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KDCAairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KBWIairport"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KADWairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC007-DAL1512-201209081903">
+    <rdfs:label>NEC007-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC008-DAL1512-201209081903"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#MZZ"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_01">
+    <rdfs:label>rteCon07620120908 01</rdfs:label>
+    <atm:mustHaveOrigin rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_1"/>
+    <atm:mustHaveDestination rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#FlightSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_5">
+    <rdfs:label>RRTorig07620120908 5</rdfs:label>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KCHAairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_03">
+    <rdfs:label>NEC005 rtePath07620120908 03</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</gen:sequenceNumber>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ROYKO3b"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#WYNDE4a">
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC005-WYNDE4a"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#TransitionRoute"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC007-WYNDE4a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC002-WYNDE4a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC004-WYNDE4a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC008-WYNDE4a"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-WYNDE4a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC006-WYNDE4a"/>
+    <rdfs:label>WYNDE4a</rdfs:label>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC008-WYNDE4a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC001-WYNDE4a"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#NEC003-WYNDE4a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_06">
+    <rdfs:label>NEC004 rtePath07620120908 06</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_06"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#FTZ"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_05">
+    <rdfs:label>NEC003 rtePath07620120908 05</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_05"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#FTZ"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#GDP02320120908">
+    <atm:issuedTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T18:30:00</atm:issuedTime>
+    <atm:effectiveStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T18:15:00</atm:effectiveStartTime>
+    <atm:effectiveStartDay rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#Day20120908"/>
+    <atm:initiativeComments>LANDING RY27R/27L/28 DEP22L/32L/28. THUNDERSTORMS MOVING THROUGH</atm:initiativeComments>
+    <atm:controlledNASelement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#GroundDelayProgramTMI"/>
+    <atm:impactingConditionMessage>thunderstorms</atm:impactingConditionMessage>
+    <atm:advisoryNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</atm:advisoryNumber>
+    <atm:effectiveEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T22:59:59</atm:effectiveEndTime>
+    <rdfs:label>GDP 023 on 2012-09-08</rdfs:label>
+    <atm:effectiveEndDay rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#Day20120908"/>
+    <atm:issuedDay rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#Day20120908"/>
+    <atm:departureScope rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#GDPdscope02320120908"/>
+    <atm:modeledBy rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#GDPmodel02320120908"/>
+    <atm:impactingCondition>runway</atm:impactingCondition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_02">
+    <rdfs:label>NEC001 rtePath07620120908 02</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_02"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#MGM"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_03">
+    <rdfs:label>NEC002 rtePath07620120908 03</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_03"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#MGM"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_01">
+    <rdfs:label>NEC004 rtePath07620120908 01</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_01"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#FNT"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_04">
+    <rdfs:label>seg07620120908 04</rdfs:label>
+    <atm:reRoutePath rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_04"/>
+    <atm:reRouteConstraint rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_04"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ReRouteSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_05">
+    <rdfs:label>rteCon07620120908 05</rdfs:label>
+    <atm:mustHaveOrigin rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_5"/>
+    <atm:mustHaveDestination rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#FlightSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_03">
+    <rdfs:label>rtePath07620120908 03</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_03"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_03"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_03"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_03"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_03"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_03"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_03"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedFlightRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC008-DAL1512-201209081903">
+    <rdfs:label>NEC008-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</gen:sequenceNumber>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ROYKO3b"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#PARcon02320120908_3">
+    <rdfs:label>PARcon02320120908 3</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <atm:hasNumericParameter rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRate_104"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRateContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_02">
+    <rdfs:label>rteCon07620120908 02</rdfs:label>
+    <atm:mustHaveOrigin rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_2"/>
+    <atm:mustHaveDestination rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#FlightSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908">
+    <rdfs:label>RRTdest07620120908</rdfs:label>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KORDairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_4">
+    <rdfs:label>RRTorig07620120908 4</rdfs:label>
+    <atm:withinARTCC rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ZMAcenter"/>
+    <atm:includesAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#AirportSpec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_04">
+    <rdfs:label>NEC005 rtePath07620120908 04</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</gen:sequenceNumber>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ROYKO3b"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005-DAL1512-201209081903">
+    <rdfs:label>NEC005-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC006-DAL1512-201209081903"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#VOSTK"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_03">
+    <rdfs:label>NEC004 rtePath07620120908 03</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC005_rtePath07620120908_03"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#MZZ"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_06">
+    <rdfs:label>NEC003 rtePath07620120908 06</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_06"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#FAM"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_05">
+    <rdfs:label>NEC002 rtePath07620120908 05</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_05"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#FAM"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#GDPmodel02320120908">
+    <rdfs:label>GDPmodel02320120908</rdfs:label>
+    <atm:modeledMaximumDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</atm:modeledMaximumDelay>
+    <atm:modeledAverageDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</atm:modeledAverageDelay>
+    <atm:modeledArrivalRate rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PARseq02320120908"/>
+    <atm:delayAssignmentMode>UDP</atm:delayAssignmentMode>
+    <atm:adlTime rdf:datatype="http://www.w3.org/2001/XMLSchema#time">17:30:00</atm:adlTime>
+    <atm:adlDay rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#Day20120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#GDPmodel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_03">
+    <rdfs:label>NEC001 rtePath07620120908 03</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_03"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#LAL"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC006-DAL1512-201209081903">
+    <rdfs:label>NEC006-DAL1512-201209081903</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC007-DAL1512-201209081903"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#HEVAN"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRate_72">
+    <rdfs:label>Program arrival rate 72</rdfs:label>
+    <gen:parameterValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</gen:parameterValue>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_04">
+    <rdfs:label>NEC002 rtePath07620120908 04</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_04"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#MGM"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_02">
+    <rdfs:label>NEC004 rtePath07620120908 02</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#ROYKO3b"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_01">
+    <rdfs:label>NEC003 rtePath07620120908 01</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_01"/>
+    <atm:hasNavElement rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#DJB"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NavElementContainer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#seg07620120908_03">
+    <rdfs:label>seg07620120908 03</rdfs:label>
+    <atm:reRoutePath rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_03"/>
+    <atm:reRouteConstraint rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_03"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ReRouteSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRate_104">
+    <rdfs:label>Program arrival rate 104</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#ProgramArrivalRate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rtePath07620120908_02">
+    <rdfs:label>rtePath07620120908 02</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_02"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC003_rtePath07620120908_02"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC002_rtePath07620120908_02"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_02"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC004_rtePath07620120908_02"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#NEC001_rtePath07620120908_02"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#PlannedFlightRoute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/ATM#rteCon07620120908_06">
+    <rdfs:label>rteCon07620120908 06</rdfs:label>
+    <atm:mustHaveOrigin rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTorig07620120908_6"/>
+    <atm:mustHaveDestination rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#RRTdest07620120908"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/ATM#FlightSpec"/>
+  </rdf:Description>
+</rdf:RDF>

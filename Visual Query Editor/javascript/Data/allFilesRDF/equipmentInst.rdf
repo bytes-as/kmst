@@ -1,0 +1,113 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:eqp="https://data.nasa.gov/ontologies/atmonto/equipment#"
+    xmlns:atm="https://data.nasa.gov/ontologies/atmonto/ATM#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:data="https://data.nasa.gov/ontologies/atmonto/data#"
+    xmlns:nas="https://data.nasa.gov/ontologies/atmonto/NAS#"
+    xmlns:gen="https://data.nasa.gov/ontologies/atmonto/general#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#LowAircraftWeightClass">
+    <eqp:aircraftWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</eqp:aircraftWeightLowBound>
+    <eqp:aircraftWeightHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15500</eqp:aircraftWeightHighBound>
+    <rdfs:label>Low Aircraft Weight Class</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWeightClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#TurboPropEngineType">
+    <eqp:engineTypeDescription>turboprop/turboshaft engine</eqp:engineTypeDescription>
+    <rdfs:label>Turbo Prop Engine Type Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#EngineType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipmentInst">
+    <owl:imports rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#MediumAircraftWeightClass">
+    <eqp:aircraftWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15501</eqp:aircraftWeightLowBound>
+    <eqp:aircraftWeightHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</eqp:aircraftWeightHighBound>
+    <rdfs:label>Medium Aircraft Weight Class</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWeightClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#PropellerEngineType">
+    <eqp:engineTypeDescription>prop (piston) engine</eqp:engineTypeDescription>
+    <rdfs:label>Propeller Engine Type Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#EngineType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#ElectricEngineType">
+    <eqp:engineTypeDescription>electric engine</eqp:engineTypeDescription>
+    <rdfs:label>Electric Engine Type Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#EngineType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryF8">
+    <eqp:wakeCategoryID>F</eqp:wakeCategoryID>
+    <eqp:maxTaxeoffWeightHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15499</eqp:maxTaxeoffWeightHighBound>
+    <rdfs:label>Category F Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryD5">
+    <eqp:wingSpanLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</eqp:wingSpanLowBound>
+    <eqp:wingSpanHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</eqp:wingSpanHighBound>
+    <eqp:wakeCategoryID>D</eqp:wakeCategoryID>
+    <eqp:maxTakeoffWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41001</eqp:maxTakeoffWeightLowBound>
+    <rdfs:label>Category D Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryF7">
+    <eqp:wingSpanHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</eqp:wingSpanHighBound>
+    <eqp:wakeCategoryID>F</eqp:wakeCategoryID>
+    <eqp:maxTaxeoffWeightHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40999</eqp:maxTaxeoffWeightHighBound>
+    <rdfs:label>Category F Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryE6">
+    <eqp:wingSpanLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</eqp:wingSpanLowBound>
+    <eqp:wingSpanHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</eqp:wingSpanHighBound>
+    <eqp:wakeCategoryID>E</eqp:wakeCategoryID>
+    <eqp:maxTakeoffWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41001</eqp:maxTakeoffWeightLowBound>
+    <rdfs:label>Category E Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryD4">
+    <eqp:wingSpanLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</eqp:wingSpanLowBound>
+    <eqp:wingSpanHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</eqp:wingSpanHighBound>
+    <eqp:wakeCategoryID>D</eqp:wakeCategoryID>
+    <eqp:maxTaxeoffWeightHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299999</eqp:maxTaxeoffWeightHighBound>
+    <rdfs:label>Category D Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryC3">
+    <eqp:wingSpanLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</eqp:wingSpanLowBound>
+    <eqp:wingSpanHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</eqp:wingSpanHighBound>
+    <eqp:wakeCategoryID>C</eqp:wakeCategoryID>
+    <eqp:maxTakeoffWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</eqp:maxTakeoffWeightLowBound>
+    <rdfs:label>Category C Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryB2">
+    <eqp:wingSpanLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176</eqp:wingSpanLowBound>
+    <eqp:wingSpanHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</eqp:wingSpanHighBound>
+    <eqp:wakeCategoryID>B</eqp:wakeCategoryID>
+    <eqp:maxTakeoffWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</eqp:maxTakeoffWeightLowBound>
+    <rdfs:label>Category B Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategoryA1">
+    <eqp:wingSpanLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246</eqp:wingSpanLowBound>
+    <eqp:wakeCategoryID>A</eqp:wakeCategoryID>
+    <eqp:maxTakeoffWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</eqp:maxTakeoffWeightLowBound>
+    <rdfs:label>Category A Aircraft Wake Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWakeCategory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#JetEngineType">
+    <eqp:engineTypeDescription>jet engine</eqp:engineTypeDescription>
+    <rdfs:label>Jet Engine Type Category</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#EngineType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/equipment#HighAircraftWeightClass">
+    <eqp:aircraftWeightLowBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</eqp:aircraftWeightLowBound>
+    <eqp:aircraftWeightHighBound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9999999</eqp:aircraftWeightHighBound>
+    <rdfs:label>High Aircraft Weight Class</rdfs:label>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/equipment#AircraftWeightClass"/>
+  </rdf:Description>
+</rdf:RDF>

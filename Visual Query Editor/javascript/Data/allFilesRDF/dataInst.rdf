@@ -1,0 +1,306 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:data="https://data.nasa.gov/ontologies/atmonto/data#"
+    xmlns:nas="https://data.nasa.gov/ontologies/atmonto/NAS#"
+    xmlns:gen="https://data.nasa.gov/ontologies/atmonto/general#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_cloud_L1">
+    <rdfs:label>KATL201209081720 f1Cond cloud L1</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <data:cloudType>cumulonimbus</data:cloudType>
+    <data:cloudCover>broken clouds</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f4Cond">
+    <data:hasSkyCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyCondition"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAFmeteorologicalCondition"/>
+    <data:metConditionEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T17:00:00Z</data:metConditionEndTime>
+    <data:hasSurfaceWindCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f4Cond_winds"/>
+    <rdfs:label>KATL201209081720 f4Cond</rdfs:label>
+    <data:rapidityOfWeatherChange>rapid</data:rapidityOfWeatherChange>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f5Cond"/>
+    <data:metConditionStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T14:00:00Z</data:metConditionStartTime>
+    <data:hasVisibilityCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#UnlimitedVisibilityCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond">
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <data:metConditionEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T20:00:00Z</data:metConditionEndTime>
+    <data:hasVisibilityCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_visibility"/>
+    <data:rapidityOfWeatherChange>transient</data:rapidityOfWeatherChange>
+    <data:hasSurfaceWindCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_winds"/>
+    <data:meteorologicalConditionStatus>forecast</data:meteorologicalConditionStatus>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAFmeteorologicalCondition"/>
+    <data:hasWeatherCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_weather"/>
+    <data:hasSkyCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_sky"/>
+    <rdfs:label>KATL201209081720 f1Cond</rdfs:label>
+    <data:metConditionStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T18:00:00Z</data:metConditionStartTime>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f4Cond_winds">
+    <rdfs:label>KATL201209081720 f4Cond winds</rdfs:label>
+    <data:windDirectionFixed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</data:windDirectionFixed>
+    <data:surfaceWindSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</data:surfaceWindSpeed>
+    <data:surfaceWindDirectionStatus>fixed</data:surfaceWindDirectionStatus>
+    <data:surfaceGustSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</data:surfaceGustSpeed>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SurfaceWindCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud_L2">
+    <rdfs:label>KATL201209081720 current conditions cloud layer 2</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <data:cloudCover>broken clouds</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4500</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L3">
+    <rdfs:label>KATL201209081859 current cond cloud L3</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <data:cloudCover>overcast</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20000</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L1">
+    <rdfs:label>KATL201209081859 current cond cloud L1</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L2"/>
+    <data:topAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5500</data:topAltitude>
+    <data:cloudCover>scattered clouds</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3500</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud">
+    <rdfs:label>KATL201209081859 current cond cloud</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L3"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L2"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L1"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L3"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L1"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayerProfile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond">
+    <rdfs:label>KATL201209081720 current conditions</rdfs:label>
+    <data:hasWeatherCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_weather"/>
+    <data:metConditionStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T18:00:00Z</data:metConditionStartTime>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAFmeteorologicalCondition"/>
+    <data:hasVisibilityCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#UnlimitedVisibilityCondition"/>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <data:hasSurfaceWindCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_winds"/>
+    <data:meteorologicalConditionStatus>observed</data:meteorologicalConditionStatus>
+    <data:hasSkyCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_sky"/>
+    <data:metConditionEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T00:00:00Z</data:metConditionEndTime>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyLayer">
+    <rdfs:label>Clear sky layer</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <data:cloudCover>clear</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#TAF_KATL201209081720">
+    <data:forecastingAirport rdf:resource="https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f3Cond"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond"/>
+    <data:forecastIssueTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T17:20:00Z</data:forecastIssueTime>
+    <data:forecastValidityStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-08T18:00:00Z</data:forecastValidityStartTime>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f5Cond"/>
+    <rdfs:label>KATL201209081720</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f5Cond"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAFreport"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f4Cond"/>
+    <data:forecastValidityEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T00:00:00Z</data:forecastValidityEndTime>
+    <data:tafReportString>KATL 081720Z 0818/0924 27011G20KT P6SM -SHRA SCT030 BKN045
+       TEMPO 0818/0820 5SM TSRA BKN020CB
+     FM090000 32010G18KT P6SM BKN015 OVC060
+     FM090600 33010KT P6SM SKC
+     FM091400 01010G20KT P6SM SKC
+     FM091700 34010G18KT P6SM SKC</data:tafReportString>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f3Cond_winds">
+    <rdfs:label>KATL201209081720 f3Cond winds</rdfs:label>
+    <data:windDirectionFixed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">330.0</data:windDirectionFixed>
+    <data:surfaceWindSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</data:surfaceWindSpeed>
+    <data:surfaceWindDirectionStatus>fixed</data:surfaceWindDirectionStatus>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SurfaceWindCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud">
+    <rdfs:label>KATL201209081720 current conditions cloud</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud_L2"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud_L1"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud_L2"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud_L1"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayerProfile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#UnlimitedVisibilityCondition">
+    <rdfs:label>Unlimited visibility conditions</rdfs:label>
+    <data:unlimitedVisibility rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</data:unlimitedVisibility>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#VisibilityCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud">
+    <rdfs:label>KATL201209081720 f2Cond cloud</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud_L2"/>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud_L1"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud_L2"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud_L1"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayerProfile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_winds">
+    <rdfs:label>KATL201209081720 current condidtion winds</rdfs:label>
+    <data:windDirectionFixed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">270.0</data:windDirectionFixed>
+    <data:surfaceWindSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</data:surfaceWindSpeed>
+    <data:surfaceWindDirectionStatus>fixed</data:surfaceWindDirectionStatus>
+    <data:surfaceGustSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</data:surfaceGustSpeed>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SurfaceWindCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud_L1">
+    <rdfs:label>KATL201209081720 f2Cond cloud L1</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud_L2"/>
+    <data:topAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6000</data:topAltitude>
+    <data:cloudCover>broken clouds</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_weather">
+    <rdfs:label>KATL201209081720 f1Cond weather</rdfs:label>
+    <data:weatherQualifier>thunderstorm</data:weatherQualifier>
+    <data:weatherPhenomenon>rain</data:weatherPhenomenon>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#WeatherCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/dataInst">
+    <owl:imports rdf:resource="https://data.nasa.gov/ontologies/atmonto/data"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_cloud">
+    <rdfs:label>KATL201209081720 f1Cond cloud</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_cloud_L1"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_cloud_L1"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_cloud_L1"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayerProfile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/NAS#KATLairport">
+    <data:hasTAFreport rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAF_KATL201209081720"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_winds">
+    <rdfs:label>KATL201209081720 f2Cond winds</rdfs:label>
+    <data:windDirectionFixed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">320.0</data:windDirectionFixed>
+    <data:surfaceWindSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</data:surfaceWindSpeed>
+    <data:surfaceWindDirectionStatus>fixed</data:surfaceWindDirectionStatus>
+    <data:surfaceGustSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</data:surfaceGustSpeed>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SurfaceWindCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f5Cond">
+    <rdfs:label>KATL201209081720 f5Cond</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</gen:sequenceNumber>
+    <data:rapidityOfWeatherChange>rapid</data:rapidityOfWeatherChange>
+    <data:metConditionStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T17:00:00Z</data:metConditionStartTime>
+    <data:metConditionEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T00:00:00Z</data:metConditionEndTime>
+    <data:hasVisibilityCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#UnlimitedVisibilityCondition"/>
+    <data:hasSurfaceWindCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f5Cond_winds"/>
+    <data:hasSkyCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyCondition"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAFmeteorologicalCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyProfile">
+    <rdfs:label>Clear sky profile</rdfs:label>
+    <gen:hasSequencedItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyLayer"/>
+    <gen:hasLastItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyLayer"/>
+    <gen:hasFirstItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyLayer"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayerProfile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond">
+    <data:hasVisibilityCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#UnlimitedVisibilityCondition"/>
+    <data:hasSurfaceWindCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_winds"/>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</gen:sequenceNumber>
+    <data:metConditionEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T06:00:00Z</data:metConditionEndTime>
+    <data:metConditionStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T00:00:00Z</data:metConditionStartTime>
+    <data:hasSkyCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_sky"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAFmeteorologicalCondition"/>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f3Cond"/>
+    <rdfs:label>KATL201209081720 f2Cond</rdfs:label>
+    <data:meteorologicalConditionStatus>forecast</data:meteorologicalConditionStatus>
+    <data:rapidityOfWeatherChange>rapid</data:rapidityOfWeatherChange>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_sky">
+    <rdfs:label>KATL201209081720 f2Cond sky</rdfs:label>
+    <data:hasCloudLayerProfile rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_cloud"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SkyCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L2">
+    <rdfs:label>KATL201209081859 current cond cloud L2</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081859_currentCond_cloud_L3"/>
+    <data:topAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20000</data:topAltitude>
+    <data:cloudCover>broken clouds</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5500</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud_L1">
+    <rdfs:label>KATL201209081720 current conditions cloud layer 1</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</gen:sequenceNumber>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud_L2"/>
+    <data:topAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4500</data:topAltitude>
+    <data:cloudCover>scattered clouds</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_weather">
+    <rdfs:label>KATL201209081720 current condition weather</rdfs:label>
+    <data:weatherQualifier>shower</data:weatherQualifier>
+    <data:weatherPhenomenon>rain</data:weatherPhenomenon>
+    <data:weatherIntensityProximity>light/moderate</data:weatherIntensityProximity>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#WeatherCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_sky">
+    <rdfs:label>KATL201209081720 f1Cond sky</rdfs:label>
+    <data:hasCloudLayerProfile rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_cloud"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SkyCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyCondition">
+    <rdfs:label>Clear sky condition</rdfs:label>
+    <data:hasCloudLayerProfile rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyProfile"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SkyCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_sky">
+    <rdfs:label>KATL201209081720 current cond sky</rdfs:label>
+    <data:hasCloudLayerProfile rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_currentCond_cloud"/>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SkyCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f5Cond_winds">
+    <rdfs:label>KATL201209081720 f5Cond winds</rdfs:label>
+    <data:windDirectionFixed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">340.0</data:windDirectionFixed>
+    <data:surfaceWindSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</data:surfaceWindSpeed>
+    <data:surfaceWindDirectionStatus>fixed</data:surfaceWindDirectionStatus>
+    <data:surfaceGustSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</data:surfaceGustSpeed>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#SurfaceWindCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f2Cond_cloud_L2">
+    <rdfs:label>KATL201209081720 f2Cond cloud L2</rdfs:label>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gen:sequenceNumber>
+    <data:cloudCover>overcast</data:cloudCover>
+    <data:baseAltitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6000</data:baseAltitude>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#CloudLayer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f1Cond_visibility">
+    <rdfs:label>KATL201209081720 f1Cond visibility</rdfs:label>
+    <data:limitedVisibilityDistance rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</data:limitedVisibilityDistance>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#VisibilityCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f3Cond">
+    <data:metConditionStartTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T06:00:00Z</data:metConditionStartTime>
+    <rdf:type rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#TAFmeteorologicalCondition"/>
+    <data:rapidityOfWeatherChange>rapid</data:rapidityOfWeatherChange>
+    <data:hasSkyCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#ClearSkyCondition"/>
+    <data:hasSurfaceWindCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f3Cond_winds"/>
+    <gen:hasNextItem rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#KATL201209081720_f4Cond"/>
+    <gen:sequenceNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</gen:sequenceNumber>
+    <rdfs:label>KATL201209081720 f3Cond</rdfs:label>
+    <data:metConditionEndTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-09T14:00:00Z</data:metConditionEndTime>
+    <data:hasVisibilityCondition rdf:resource="https://data.nasa.gov/ontologies/atmonto/data#UnlimitedVisibilityCondition"/>
+  </rdf:Description>
+</rdf:RDF>
